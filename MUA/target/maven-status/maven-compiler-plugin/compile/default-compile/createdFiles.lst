@@ -1,8 +1,0 @@
-com/baseConfiges/BrowserFactory.class
-com/pages/ProfilePage.class
-com/baseConfiges/BasePageObject.class
-com/pages/Login.class
-com/baseConfiges/CsvDataProvider.class
-com/baseConfiges/TestListener.class
-com/pages/MainPage.class
-com/baseConfiges/BaseConditions.class

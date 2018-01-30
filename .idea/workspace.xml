@@ -1,7 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5225ee96-b9cf-4561-9902-8665c32a9bdc" name="Default" comment="" />
+    <list default="true" id="dca1592b-2476-426b-b914-ab9de924464a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/FindApp.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_5.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_8_1.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_8_1.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_8_1.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_8_1.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_8_1.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_8_1.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_8_1.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_8_1.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_8_1.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_8_1.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/libraries/Maven__org_testng_testng_6_13_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_13_1.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Bookingcom/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/compiler.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/libraries/Maven__org_testng_testng_6_13_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/uiDesigner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/MUA.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/main/java/com/baseConfiges/BaseConditions.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/main/java/com/baseConfiges/BasePageObject.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/main/java/com/baseConfiges/BrowserFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/main/java/com/baseConfiges/CsvDataProvider.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/main/java/com/baseConfiges/TestListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/main/java/com/pages/Login.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/main/java/com/pages/MainPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/main/java/com/pages/ProfilePage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/main/resources/chromedriver" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/main/resources/geckodriver.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/main/resources/log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/test/java/com/tests/LoginTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/test/java/com/tests/MainPageTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/test/resources.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/test/resources/test_data/LoginTest_wrongLogin.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/src/test/resources/testng.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/classes/chromedriver" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/classes/com/baseConfiges/BaseConditions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/classes/com/baseConfiges/BasePageObject.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/classes/com/baseConfiges/BrowserFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/classes/com/baseConfiges/CsvDataProvider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/classes/com/baseConfiges/TestListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/classes/com/pages/Login.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/classes/com/pages/MainPage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/classes/com/pages/ProfilePage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/classes/geckodriver.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/classes/log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/MainPageSuite/LoginTest-CH.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/MainPageSuite/LoginTest-CH.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/MainPageSuite/LoginTest-FF.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/MainPageSuite/LoginTest-FF.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/TEST-TestSuite.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/TestSuite.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/failed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/junitreports/TEST-com.tests.LoginTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/old/MainPageSuite/LoginTest-CH.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/old/MainPageSuite/LoginTest-FF.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/old/MainPageSuite/classes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/old/MainPageSuite/groups.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/old/MainPageSuite/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/old/MainPageSuite/main.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/old/MainPageSuite/methods-alphabetical.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/old/MainPageSuite/methods-not-run.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/old/MainPageSuite/methods.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/old/MainPageSuite/reporter-output.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/old/MainPageSuite/testng.xml.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/old/MainPageSuite/toc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/old/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/passed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/skipped.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/surefire-reports/testng.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/test-classes/com/tests/LoginTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/test-classes/com/tests/MainPageTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/test-classes/test_data/LoginTest_wrongLogin.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUA/target/test-classes/testng.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/compiler.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_6.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_6.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__com_googlecode_owasp_java_html_sanitizer_owasp_java_html_sanitizer_20170515_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__info_cukes_cucumber_html_unknown.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_unknown.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__jaxen_jaxen_1_1_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__net_lingala_zip4j_zip4j_1_3_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__net_masterthought_cucumber_reporting_3_14_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__net_sourceforge_cobertura_cobertura_2_1_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_apache_ant_ant_1_8_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_apache_ant_ant_junit_1_8_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_8_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_8_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_8_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_24.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_jsoup_jsoup_1_10_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_mockito_mockito_core_2_13_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_14.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_14.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_6_1_14.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_ow2_asm_asm_5_0_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_ow2_asm_asm_analysis_5_0_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_ow2_asm_asm_commons_5_0_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_ow2_asm_asm_tree_5_0_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_ow2_asm_asm_util_5_0_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/libraries/Maven__velocity_tools_velocity_tools_1_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/MUACucumber.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/MUACucumber/src/feature/cucumber.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +207,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="399" />
-    <option name="y" value="361" />
-    <option name="width" value="1094" />
-    <option name="height" value="686" />
+    <option name="x" value="2031" />
+    <option name="y" value="227" />
+    <option name="width" value="1579" />
+    <option name="height" value="853" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -33,10 +233,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Booking.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Booking.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Booking.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Booking.com" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookingcom" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,40 +275,133 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5225ee96-b9cf-4561-9902-8665c32a9bdc" name="Default" comment="" />
-      <created>1511270895290</created>
+      <changelist id="dca1592b-2476-426b-b914-ab9de924464a" name="Default" comment="" />
+      <created>1517324748830</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1511270895290</updated>
+      <updated>1517324748830</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="399" y="361" width="1094" height="686" extended-state="0" />
+    <frame x="2031" y="227" width="1579" height="853" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2530985" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
