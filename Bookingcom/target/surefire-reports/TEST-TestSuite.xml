@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="27.302" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/pmarchenko/Documents/Autotests/Bookingcom/target/test-classes:/home/pmarchenko/Documents/Autotests/Bookingcom/target/classes:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-java/3.8.1/selenium-java-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.8.1/selenium-chrome-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.8.1/selenium-edge-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.8.1/selenium-ie-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.8.1/selenium-opera-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.8.1/selenium-safari-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar:/home/pmarchenko/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/home/pmarchenko/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/pmarchenko/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/pmarchenko/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/pmarchenko/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/pmarchenko/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/home/pmarchenko/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/pmarchenko/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/home/pmarchenko/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/pmarchenko/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/pmarchenko/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/pmarchenko/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/pmarchenko/.m2/repository/org/testng/testng/6.13.1/testng-6.13.1.jar:/home/pmarchenko/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/pmarchenko/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/home/pmarchenko/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/pmarchenko/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/home/pmarchenko/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/pmarchenko/Documents/Autotests/Bookingcom/target/surefire/surefirebooter9183145551062135751.jar /home/pmarchenko/Documents/Autotests/Bookingcom/target/surefire 2018-01-30T12-32-11_259-jvmRun1 surefire7141176756226224617tmp surefire_01813821766787043477tmp"/>
+    <property name="surefire.test.class.path" value="/home/pmarchenko/Documents/Autotests/Bookingcom/target/test-classes:/home/pmarchenko/Documents/Autotests/Bookingcom/target/classes:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-java/3.8.1/selenium-java-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.8.1/selenium-chrome-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.8.1/selenium-edge-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.8.1/selenium-ie-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.8.1/selenium-opera-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.8.1/selenium-safari-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar:/home/pmarchenko/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/home/pmarchenko/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/pmarchenko/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/pmarchenko/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/pmarchenko/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/pmarchenko/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/home/pmarchenko/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/pmarchenko/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/home/pmarchenko/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/pmarchenko/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/pmarchenko/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/pmarchenko/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/pmarchenko/.m2/repository/org/testng/testng/6.13.1/testng-6.13.1.jar:/home/pmarchenko/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/pmarchenko/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/home/pmarchenko/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/pmarchenko/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/home/pmarchenko/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/pmarchenko"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/pmarchenko/Documents/Autotests/Bookingcom"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/pmarchenko/Documents/Autotests/Bookingcom/target/surefire/surefirebooter9183145551062135751.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_151-8u151-b12-0ubuntu0.17.10.2-b12"/>
+    <property name="user.name" value="pmarchenko"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.13.0-25-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/pmarchenko/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="user.dir" value="/home/pmarchenko/Documents/Autotests/Bookingcom"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="login" classname="tests.LoginPageTest" time="1.184">
+    <failure message="Element &lt;label class=&quot;bootstrapped-label user_access_email_section&quot;&gt; is not reachable by keyboard&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-25-generic&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 25528, moz:profile: /tmp/rust_mozprofile.j7cFYP..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-25-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 2bff081b-af88-403d-8cc1-c73510ad968e" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+Element <label class="bootstrapped-label user_access_email_section"> is not reachable by keyboard
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-25-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 25528, moz:profile: /tmp/rust_mozprofile.j7cFYP..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-25-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bff081b-af88-403d-8cc1-c73510ad968e
+	at tests.LoginPageTest.login(LoginPageTest.java:18)
+]]></failure>
+    <system-err><![CDATA[Jan 30, 2018 12:32:13 PM org.baseConfigs.BrowserFactory getDriver
+INFO: Start firefox
+1517308335190	geckodriver	INFO	geckodriver 0.19.1
+1517308335203	geckodriver	INFO	Listening on 127.0.0.1:28145
+1517308336188	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.j7cFYPE6JVMx"
+1517308337747	Marionette	INFO	Enabled via --marionette
+1517308341938	Marionette	INFO	Listening on port 40521
+1517308342043	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jan 30, 2018 12:32:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="login" classname="tests.LoginPageTest" time="4.056">
+    <failure message="invalid selector: Unable to locate an element with the xpath expression //*[@value=&apos;Sign in&apos;])[1] because of the following error:&#10;SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@value=&apos;Sign in&apos;])[1]&apos; is not a valid XPath expression.&#10;  (Session info: chrome=62.0.3202.94)&#10;  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.13.0-25-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-25-generic&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}&#10;Session ID: e32502c4da37c20a07029a9f951f81e1&#10;*** Element info: {Using=xpath, value=//*[@value=&apos;Sign in&apos;])[1]}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //*[@value='Sign in'])[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@value='Sign in'])[1]' is not a valid XPath expression.
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.13.0-25-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-25-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}
+Session ID: e32502c4da37c20a07029a9f951f81e1
+*** Element info: {Using=xpath, value=//*[@value='Sign in'])[1]}
+	at tests.LoginPageTest.login(LoginPageTest.java:19)
+</failure>
+    <system-err><![CDATA[[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 25644, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-AkVwVI/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 25595, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-AkVwVI/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 25595, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-AkVwVI/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 25595, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-AkVwVI/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Jan 30, 2018 12:32:28 PM org.baseConfigs.BrowserFactory getDriver
+INFO: Start chrome
+Starting ChromeDriver 2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881) on port 23509
+Only local connections are allowed.
+Jan 30, 2018 12:32:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

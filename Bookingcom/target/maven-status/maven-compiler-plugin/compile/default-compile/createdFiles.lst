@@ -1,0 +1,6 @@
+org/baseConfigs/BaseConditions.class
+org/baseConfigs/TestListener.class
+org/baseConfigs/BrowserFactory.class
+org/baseConfigs/BasePageObject.class
+pages/LoginPage.class
+pages/MainPage.class

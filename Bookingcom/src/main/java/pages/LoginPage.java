@@ -7,11 +7,13 @@ import org.openqa.selenium.WebDriver;
 import java.util.logging.Logger;
 
 public class LoginPage extends BasePageObject <LoginPage> {
-    private By signInButton=By.xpath("//*[@id=\"b_tt_holder_1\"]/div/span");
-    private By emailField=By.xpath("(//label[contains(text(),'Email Address')])[1]");
-    private By passwordField=By.xpath("(//label[contains(text(),'Email Address')])[1]");
-    private By loginSignIn=By.xpath("//*[@value='Sign in'])[1]");
-    private By errorMessage=By.xpath("(//*[@class='alert alert-error alert-displayed'])[1]");
+    private By signInButton=By.xpath("(//*[@class='sign_in_wrapper'])[2]");
+    private By emailField=By.xpath("(//*[@name='username'])[1]");
+    private By passwordField=By.xpath("(//*[@name='password'])[1]");
+    private By loginSignIn=By.xpath("(//*[@value='Sign in'])[1]");
+    private By profileName=By.xpath("//*[@class='header_name user_lastname']");
+    private By mainLogo=By.xpath("//*[@id='logo_no_globe_new_logo']");
+    private By errorMessage=By.xpath("//*[@class='alert alert-error alert-displayed']");
 
     public LoginPage(WebDriver driver, Logger logger) {
         super(driver, logger);
@@ -27,9 +29,18 @@ public class LoginPage extends BasePageObject <LoginPage> {
     public void loginToPage(){
         openElement(loginSignIn);
     }
-    public String getLiginErrorMessage(){
+    public String getMainLogo(){
+
+        return getText(mainLogo);
+    }
+    public String getLoginErrorMessage(){
         waitForVisibility(errorMessage, 10);
+
         return getText(errorMessage);
+    }
+    public String getProfileName(){
+
+        return getText(profileName);
     }
 
 

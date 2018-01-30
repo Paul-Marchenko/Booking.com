@@ -1,10 +1,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="MainPageSuite"  parallel="tests" thread-count="2" >
-       <test name="LoginTest-FF">
+    <listeners>
+        <listener class-name="org.baseConfigs.TestListener"></listener>
+    </listeners>
+    <test name="LoginTest-FF">
         <parameter name="browser"  value="firefox"/>
 
+        <groups>
+            <run>
 
+            </run>
+        </groups>
         <classes>
             <class name="tests.LoginPageTest">
 
@@ -14,7 +21,11 @@
 
     <test name="LoginTest-CH">
         <parameter name="browser"  value="chrome"/>
+        <groups>
+            <run>
 
+            </run>
+        </groups>
         <classes>
             <class name="tests.LoginPageTest">
 
