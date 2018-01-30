@@ -25,7 +25,7 @@ public class LoginPageTest extends BaseConditions {
         String actualPageTitle = loginPage.getMainLogo();
         System.out.println("AR- " + actualPageTitle);
         System.out.println("ER- " + expectedPageTitle);
-        // Assert.assertTrue(actualPageTitle.equals(expectedPageTitle), "Success");
+        Assert.assertTrue(actualPageTitle.equals(expectedPageTitle), "Success");
     }
 
     @Test(dataProvider = "CsvDataProvider", dataProviderClass = CsvDataProvider.class, priority = 2)

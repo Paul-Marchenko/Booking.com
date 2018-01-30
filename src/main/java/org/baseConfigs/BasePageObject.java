@@ -8,12 +8,13 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
 import java.util.logging.Logger;
 
 public class BasePageObject <T> {
     protected WebDriver driver;
     protected WebDriverWait wait;
-    protected Logger loger;
+    protected org.apache.log4j.Logger loger;
 
     protected BasePageObject(WebDriver driver, Logger logger){
         this.driver=driver;
