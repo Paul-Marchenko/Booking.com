@@ -1,4 +1,4 @@
-package org.baseConfigs;
+package BaseConfigs;
 
 import org.testng.ITestContext;
 import org.testng.ITestResult;

@@ -1,4 +1,4 @@
-package org.baseConfigs;
+package BaseConfigs;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
@@ -14,10 +14,11 @@ import java.util.logging.Logger;
 public class BasePageObject <T> {
     protected WebDriver driver;
     protected WebDriverWait wait;
-    protected org.apache.log4j.Logger loger;
+    protected Logger logger;
 
     protected BasePageObject(WebDriver driver, Logger logger){
         this.driver=driver;
+        this.logger=logger;
         wait = new WebDriverWait(driver, 30);
 
     }

@@ -1,4 +1,4 @@
-package org.baseConfigs;
+package BaseConfigs;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
@@ -20,10 +20,12 @@ public class BaseConditions {
 
     }
     @Parameters({"browser"})
+
     @BeforeMethod(alwaysRun=true)
     protected void setUp(String browser){
         driver=BrowserFactory.getDriver(browser,logger);
     }
+
     @AfterMethod(alwaysRun = true)
     protected void tearDown(){
         driver.quit();

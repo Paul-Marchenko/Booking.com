@@ -1,4 +1,4 @@
-package org.baseConfigs;
+package BaseConfigs;
 
 import au.com.bytecode.opencsv.CSVReader;
 import org.testng.annotations.DataProvider;
@@ -11,6 +11,7 @@ import java.lang.reflect.Method;
 import java.util.*;
 
 public class CsvDataProvider {
+
     @DataProvider(name = "CsvDataProvider")
     public static Iterator<Object[]> provideData(Method method) {
         List<Object[]> list = new ArrayList<Object[]>();

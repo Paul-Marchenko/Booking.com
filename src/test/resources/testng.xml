@@ -1,17 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="MainPageSuite"  parallel="tests" thread-count="2" >
+<suite name="LoginTestsSuite"  parallel="tests" thread-count="2" >
     <listeners>
-        <listener class-name="org.baseConfigs.TestListener"></listener>
+        <listener class-name="BaseConfigs.TestListener"></listener>
     </listeners>
     <test name="LoginTest-FF">
         <parameter name="browser"  value="firefox"/>
 
-        <groups>
-            <run>
 
-            </run>
-        </groups>
         <classes>
             <class name="tests.LoginPageTest">
 
@@ -23,7 +19,12 @@
         <parameter name="browser"  value="chrome"/>
         <groups>
             <run>
+                <exclude name="incorrectLogin">
 
+                </exclude>
+                <exclude name="broken">
+
+                </exclude>
             </run>
         </groups>
         <classes>
