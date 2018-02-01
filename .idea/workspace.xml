@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dca1592b-2476-426b-b914-ab9de924464a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/baseConfigs/BaseConditions.java" afterPath="$PROJECT_DIR$/src/main/java/BaseConfigs/BaseConditions.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/baseConfigs/BasePageObject.java" afterPath="$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/baseConfigs/BrowserFactory.java" afterPath="$PROJECT_DIR$/src/main/java/BaseConfigs/BrowserFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/baseConfigs/CsvDataProvider.java" afterPath="$PROJECT_DIR$/src/main/java/BaseConfigs/CsvDataProvider.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/baseConfigs/TestListener.java" afterPath="$PROJECT_DIR$/src/main/java/BaseConfigs/TestListener.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginPageTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginPageTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/test_data/Test_wrongLoginData.csv" afterPath="$PROJECT_DIR$/src/test/resources/test_data/LoginPageTest_incorrectLogin.csv" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <change beforePath="$PROJECT_DIR$/target/Booking.com.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/baseConfigs/BaseConditions.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/baseConfigs/BasePageObject.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/baseConfigs/BrowserFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/baseConfigs/CsvDataProvider.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/baseConfigs/TestListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/MainPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginPageTest.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginPageTest.class" />
-    </list>
+    <list default="true" id="dca1592b-2476-426b-b914-ab9de924464a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,7 +67,7 @@
       <file leaf-file-name="LoginPageTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="190">
               <caret line="33" column="117" lean-forward="false" selection-start-line="33" selection-start-column="117" selection-end-line="33" selection-end-column="117" />
               <folding />
             </state>
@@ -435,9 +414,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_home_pmarchenko_Documents_Autotests_Booking_com_src_test_resources_testng_xml - 2018.02.01 at 12h 44m 25s.xml">
-      <configuration name="/home/pmarchenko/Documents/Autotests/Booking.com/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_home_pmarchenko_Documents_Autotests_Booking_com_src_test_resources_testng_xml - 2018.02.01 at 12h 48m 30s.xml">
       <configuration name="/home/pmarchenko/Documents/Autotests/Booking.com/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -465,6 +441,9 @@
     <history-entry file="_home_pmarchenko_Documents_Autotests_Booking_com_src_test_resources_testng_xml - 2018.02.01 at 13h 34m 40s.xml">
       <configuration name="/home/pmarchenko/Documents/Autotests/Booking.com/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_home_pmarchenko_Documents_Autotests_Booking_com_src_test_resources_testng_xml - 2018.02.01 at 13h 36m 13s.xml">
+      <configuration name="/home/pmarchenko/Documents/Autotests/Booking.com/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,9 +466,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26454294" sideWeight="0.5022831" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3316646" sideWeight="0.4977169" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3316646" sideWeight="0.4977169" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25623268" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25531915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18134376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -641,7 +620,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="190">
           <caret line="33" column="117" lean-forward="false" selection-start-line="33" selection-start-column="117" selection-end-line="33" selection-end-column="117" />
           <folding />
         </state>
