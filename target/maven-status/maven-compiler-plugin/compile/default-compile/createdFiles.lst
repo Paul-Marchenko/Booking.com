@@ -1,6 +1,7 @@
-org/baseConfigs/BaseConditions.class
-org/baseConfigs/TestListener.class
-org/baseConfigs/BrowserFactory.class
-org/baseConfigs/BasePageObject.class
+BaseConfigs/BaseConditions.class
+BaseConfigs/TestListener.class
+BaseConfigs/CsvDataProvider.class
+BaseConfigs/BasePageObject.class
 pages/LoginPage.class
+BaseConfigs/BrowserFactory.class
 pages/MainPage.class

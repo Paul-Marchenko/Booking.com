@@ -1,30 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 27.302 s <<< FAILURE! - in TestSuite
-login(tests.LoginPageTest)  Time elapsed: 1.184 s  <<< FAILURE!
-org.openqa.selenium.ElementNotInteractableException: 
-Element <label class="bootstrapped-label user_access_email_section"> is not reachable by keyboard
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-25-generic', java.version: '1.8.0_151'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 25528, moz:profile: /tmp/rust_mozprofile.j7cFYP..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-25-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 2bff081b-af88-403d-8cc1-c73510ad968e
-	at tests.LoginPageTest.login(LoginPageTest.java:18)
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 78.671 s <<< FAILURE! - in TestSuite
+displayLogo(tests.MainPageTest)  Time elapsed: 1.53 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at tests.MainPageTest.displayLogo(MainPageTest.java:23)
 
-login(tests.LoginPageTest)  Time elapsed: 4.056 s  <<< FAILURE!
-org.openqa.selenium.InvalidSelectorException: 
-invalid selector: Unable to locate an element with the xpath expression //*[@value='Sign in'])[1] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@value='Sign in'])[1]' is not a valid XPath expression.
-  (Session info: chrome=62.0.3202.94)
-  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.13.0-25-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-25-generic', java.version: '1.8.0_151'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}
-Session ID: e32502c4da37c20a07029a9f951f81e1
-*** Element info: {Using=xpath, value=//*[@value='Sign in'])[1]}
-	at tests.LoginPageTest.login(LoginPageTest.java:19)
+displayLogo(tests.MainPageTest)  Time elapsed: 1.802 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at tests.MainPageTest.displayLogo(MainPageTest.java:23)
 

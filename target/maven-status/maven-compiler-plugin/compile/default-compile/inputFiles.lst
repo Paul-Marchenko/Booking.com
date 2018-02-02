@@ -1,6 +1,7 @@
-/home/pmarchenko/Documents/Autotests/Bookingcom/src/main/java/pages/LoginPage.java
-/home/pmarchenko/Documents/Autotests/Bookingcom/src/main/java/org/baseConfigs/BaseConditions.java
-/home/pmarchenko/Documents/Autotests/Bookingcom/src/main/java/org/baseConfigs/TestListener.java
-/home/pmarchenko/Documents/Autotests/Bookingcom/src/main/java/pages/MainPage.java
-/home/pmarchenko/Documents/Autotests/Bookingcom/src/main/java/org/baseConfigs/BasePageObject.java
-/home/pmarchenko/Documents/Autotests/Bookingcom/src/main/java/org/baseConfigs/BrowserFactory.java
+/home/pmarchenko/Documents/Autotests/Booking.com/src/main/java/BaseConfigs/TestListener.java
+/home/pmarchenko/Documents/Autotests/Booking.com/src/main/java/BaseConfigs/BrowserFactory.java
+/home/pmarchenko/Documents/Autotests/Booking.com/src/main/java/pages/LoginPage.java
+/home/pmarchenko/Documents/Autotests/Booking.com/src/main/java/BaseConfigs/BasePageObject.java
+/home/pmarchenko/Documents/Autotests/Booking.com/src/main/java/BaseConfigs/CsvDataProvider.java
+/home/pmarchenko/Documents/Autotests/Booking.com/src/main/java/BaseConfigs/BaseConditions.java
+/home/pmarchenko/Documents/Autotests/Booking.com/src/main/java/pages/MainPage.java

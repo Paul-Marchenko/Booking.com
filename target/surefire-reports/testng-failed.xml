@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MainPageSuite]">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestsSuite]">
+  <listeners>
+    <listener class-name="BaseConfigs.TestListener"/>
+  </listeners>
   <test verbose="0" name="LoginTest-FF(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="tests.LoginPageTest">
+      <class name="tests.MainPageTest">
         <methods>
-          <include name="login"/>
-          <include name="setUpClass"/>
+          <include name="displayLogo"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- tests.LoginPageTest -->
+      </class> <!-- tests.MainPageTest -->
     </classes>
   </test> <!-- LoginTest-FF(failed) -->
   <test verbose="0" name="LoginTest-CH(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.LoginPageTest">
+      <class name="tests.MainPageTest">
         <methods>
-          <include name="login"/>
-          <include name="setUpClass"/>
+          <include name="displayLogo"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- tests.LoginPageTest -->
+      </class> <!-- tests.MainPageTest -->
     </classes>
   </test> <!-- LoginTest-CH(failed) -->
-</suite> <!-- Failed suite [MainPageSuite] -->
+</suite> <!-- Failed suite [TestsSuite] -->

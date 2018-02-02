@@ -1,38 +1,26 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="LoginTestsSuite"  parallel="tests" thread-count="2" >
+<suite name="TestsSuite" parallel="tests" thread-count="4">
     <listeners>
         <listener class-name="BaseConfigs.TestListener"></listener>
     </listeners>
-    <test name="LoginTest-FF">
-        <parameter name="browser"  value="firefox"/>
+
+    <test name="Test-FF">
+        <parameter name="browser" value="firefox"/>
 
 
-        <classes>
-            <class name="tests.LoginPageTest">
-
-            </class>
-        </classes>
+        <packages>
+            <package name="tests"/>
+        </packages>
     </test>
 
-    <test name="LoginTest-CH">
-        <parameter name="browser"  value="chrome"/>
-        <groups>
-            <run>
-                <exclude name="incorrectLogin">
-
-                </exclude>
-                <exclude name="broken">
-
-                </exclude>
-            </run>
-        </groups>
-        <classes>
-            <class name="tests.LoginPageTest">
-
-
-            </class>
-        </classes>
+    <test name="Test-CH">
+        <parameter name="browser" value="chrome"/>
+        <packages>
+            <package name="tests"/>
+        </packages>
     </test>
+
+
 
 </suite>
