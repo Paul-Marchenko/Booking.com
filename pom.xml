@@ -7,6 +7,7 @@
     <groupId>org.booking.paulm</groupId>
     <artifactId>Booking.com</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <dependencies>
 
         <dependency>
@@ -19,7 +20,6 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.13.1</version>
-            <scope>test</scope>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/net.sf.opencsv/opencsv -->
@@ -35,11 +35,7 @@
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.13.1</version>
-        </dependency>
+
 
 
     </dependencies>

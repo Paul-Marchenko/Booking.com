@@ -1,108 +1,295 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="78.671" tests="8" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="52.628" tests="8" errors="0" skipped="0" failures="7">
   <properties>
-    <property name="sun.desktop" value="gnome"/>
-    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/pmarchenko/Documents/Autotests/Booking.com/target/test-classes:/home/pmarchenko/Documents/Autotests/Booking.com/target/classes:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-java/3.8.1/selenium-java-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.8.1/selenium-chrome-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.8.1/selenium-edge-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.8.1/selenium-ie-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.8.1/selenium-opera-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.8.1/selenium-safari-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar:/home/pmarchenko/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/home/pmarchenko/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/pmarchenko/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/pmarchenko/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/pmarchenko/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/pmarchenko/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/home/pmarchenko/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/pmarchenko/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/home/pmarchenko/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/pmarchenko/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/pmarchenko/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/pmarchenko/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/pmarchenko/.m2/repository/org/testng/testng/6.13.1/testng-6.13.1.jar:/home/pmarchenko/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/pmarchenko/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/home/pmarchenko/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/pmarchenko/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/home/pmarchenko/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
+    <property name="java.class.path" value="/Users/pavel/IdeaProjects/Booking.com/target/test-classes:/Users/pavel/IdeaProjects/Booking.com/target/classes:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-java/3.8.1/selenium-java-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.8.1/selenium-chrome-driver-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.8.1/selenium-edge-driver-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.8.1/selenium-ie-driver-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.8.1/selenium-opera-driver-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.8.1/selenium-safari-driver-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar:/Users/pavel/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/Users/pavel/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/pavel/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/pavel/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/pavel/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/pavel/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/Users/pavel/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/pavel/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/Users/pavel/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/pavel/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/pavel/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/pavel/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/pavel/.m2/repository/org/testng/testng/6.13.1/testng-6.13.1.jar:/Users/pavel/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/pavel/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/Users/pavel/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/pavel/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/Users/pavel/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="UA"/>
     <property name="java.vm.specification.version" value="1.8"/>
-    <property name="os.name" value="Linux"/>
+    <property name="os.name" value="Mac OS X"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/pmarchenko/Documents/Autotests/Booking.com/target/surefire/surefirebooter674984659550748059.jar /home/pmarchenko/Documents/Autotests/Booking.com/target/surefire 2018-02-02T13-06-29_629-jvmRun1 surefire3798503344016781415tmp surefire_08968223419446381914tmp"/>
-    <property name="surefire.test.class.path" value="/home/pmarchenko/Documents/Autotests/Booking.com/target/test-classes:/home/pmarchenko/Documents/Autotests/Booking.com/target/classes:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-java/3.8.1/selenium-java-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.8.1/selenium-chrome-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.8.1/selenium-edge-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.8.1/selenium-ie-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.8.1/selenium-opera-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.8.1/selenium-safari-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar:/home/pmarchenko/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/home/pmarchenko/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/pmarchenko/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/pmarchenko/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/pmarchenko/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/pmarchenko/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/home/pmarchenko/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/pmarchenko/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/home/pmarchenko/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/pmarchenko/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/pmarchenko/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/pmarchenko/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/pmarchenko/.m2/repository/org/testng/testng/6.13.1/testng-6.13.1.jar:/home/pmarchenko/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/pmarchenko/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/home/pmarchenko/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/pmarchenko/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/home/pmarchenko/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/pavel/IdeaProjects/Booking.com/target/surefire/surefirebooter1858782889309494246.jar /Users/pavel/IdeaProjects/Booking.com/target/surefire 2018-02-05T12-30-43_589-jvmRun1 surefire770678410653616642tmp surefire_02335739594504605779tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/pavel/IdeaProjects/Booking.com/target/test-classes:/Users/pavel/IdeaProjects/Booking.com/target/classes:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-java/3.8.1/selenium-java-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.8.1/selenium-chrome-driver-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.8.1/selenium-edge-driver-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.8.1/selenium-ie-driver-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.8.1/selenium-opera-driver-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.8.1/selenium-safari-driver-3.8.1.jar:/Users/pavel/.m2/repository/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar:/Users/pavel/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/Users/pavel/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/pavel/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/pavel/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/pavel/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/pavel/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/Users/pavel/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/pavel/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/Users/pavel/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/pavel/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/pavel/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/pavel/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/pavel/.m2/repository/org/testng/testng/6.13.1/testng-6.13.1.jar:/Users/pavel/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/pavel/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/Users/pavel/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/pavel/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/Users/pavel/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/pmarchenko"/>
+    <property name="user.home" value="/Users/pavel"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
-    <property name="basedir" value="/home/pmarchenko/Documents/Autotests/Booking.com"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/pavel/IdeaProjects/Booking.com"/>
     <property name="file.separator" value="/"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/pmarchenko/Documents/Autotests/Booking.com/target/surefire/surefirebooter674984659550748059.jar"/>
-    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/pavel/IdeaProjects/Booking.com/target/surefire/surefirebooter1858782889309494246.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_151-8u151-b12-0ubuntu0.17.10.2-b12"/>
-    <property name="user.name" value="pmarchenko"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="pavel"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="4.13.0-32-generic"/>
-    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="localRepository" value="/home/pmarchenko/.m2/repository"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/pavel/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="1.8.0_151"/>
-    <property name="user.dir" value="/home/pmarchenko/Documents/Autotests/Booking.com"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/var/folders/_y/wj65np8n3d5dctbqf0zwv5jc0000gn/T/"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="user.dir" value="/Users/pavel/IdeaProjects/Booking.com"/>
+    <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.library.path" value="/Users/pavel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.151-b12"/>
-    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.ext.dirs" value="/Users/pavel/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="displayLogo" classname="tests.MainPageTest" time="1.53">
+  <testcase name="displayLogo" classname="tests.MainPageTest" time="1.493">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at tests.MainPageTest.displayLogo(MainPageTest.java:23)
 </failure>
-    <system-out><![CDATA[LoginTest-FFTest Start
+    <system-out><![CDATA[Test-FFTest Start
 AR- 
 ER- Booking.com Online Hotel Reservations
-LoginTest-FFTest Failure
 ]]></system-out>
-    <system-err><![CDATA[Feb 02, 2018 1:06:30 PM BaseConfigs.BrowserFactory getDriver
+    <system-err><![CDATA[Feb 05, 2018 12:30:44 PM BaseConfigs.BrowserFactory getDriver
 INFO: Start firefox
-1517569591100	geckodriver	INFO	geckodriver 0.19.1
-1517569591105	geckodriver	INFO	Listening on 127.0.0.1:11171
-1517569591432	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6gH3Zk1pGhtS"
-1517569592206	Marionette	INFO	Enabled via --marionette
-1517569593987	Marionette	INFO	Listening on port 34927
-1517569594057	Marionette	WARN	TLS certificate errors will be ignored for this session
-Feb 02, 2018 1:06:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1517826644862	geckodriver	INFO	geckodriver 0.19.1
+1517826644867	geckodriver	INFO	Listening on 127.0.0.1:20835
+1517826645185	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/_y/wj65np8n3d5dctbqf0zwv5jc0000gn/T/rust_mozprofile.XaszGMzRz5gs"
+1517826645873	Marionette	INFO	Enabled via --marionette
+2018-02-05 12:30:46.779 plugin-container[31350:3722935] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaf13, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-02-05 12:30:46.780 plugin-container[31350:3722935] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:30:46.780 plugin-container[31350:3722935] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:30:46.780 plugin-container[31350:3722935] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:30:46.782 plugin-container[31350:3722935] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+1517826647146	Marionette	INFO	Listening on port 58070
+1517826647199	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 05, 2018 12:30:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+2018-02-05 12:30:47.664 plugin-container[31352:3723032] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-02-05 12:30:47.664 plugin-container[31352:3723032] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:30:47.665 plugin-container[31352:3723032] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:30:47.665 plugin-container[31352:3723032] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:30:47.666 plugin-container[31352:3723032] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
 ]]></system-err>
   </testcase>
-  <testcase name="displayLogo" classname="tests.MainPageTest" time="1.802">
+  <testcase name="displayLogo" classname="tests.MainPageTest" time="1.505">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at tests.MainPageTest.displayLogo(MainPageTest.java:23)
 </failure>
-    <system-out><![CDATA[LoginTest-FFTest Finish
-LoginTest-CHTest Start
+    <system-out><![CDATA[Test-FFTest Failure
+Test-FFTest Finish
+Test-CHTest Start
 AR- 
 ER- Booking.com Online Hotel Reservations
-LoginTest-CHTest Failure
 ]]></system-out>
-    <system-err><![CDATA[[Child 9573, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-mnaFRO/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-[Child 9573, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-mnaFRO/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-Feb 02, 2018 1:07:13 PM BaseConfigs.BrowserFactory getDriver
+    <system-err><![CDATA[[Child 31388, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 31388, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Feb 05, 2018 12:31:15 PM BaseConfigs.BrowserFactory getDriver
 INFO: Start chrome
-Starting ChromeDriver 2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881) on port 2476
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 33550
 Only local connections are allowed.
-Feb 02, 2018 1:07:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 05, 2018 12:31:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="login" classname="tests.LoginPageTest" time="6.128"/>
-  <testcase name="login" classname="tests.LoginPageTest" time="7.134"/>
-  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="5.735"/>
-  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="5.873"/>
-  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="6.536"/>
-  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="6.301"/>
+  <testcase name="login" classname="tests.LoginPageTest" time="0.872">
+    <failure message="Unable to locate element: (//*[@value=&apos;Sign in&apos;])[1]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;MacBook-Pro-Pavel.local&apos;, ip: &apos;fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31360, moz:profile: /var/folders/_y/wj65np8n3d5..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 75142490-1eed-694f-8570-239358103042&#10;*** Element info: {Using=xpath, value=(//*[@value=&apos;Sign in&apos;])[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: (//*[@value='Sign in'])[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-Pavel.local', ip: 'fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31360, moz:profile: /var/folders/_y/wj65np8n3d5..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 75142490-1eed-694f-8570-239358103042
+*** Element info: {Using=xpath, value=(//*[@value='Sign in'])[1]}
+	at tests.LoginPageTest.login(LoginPageTest.java:21)
+</failure>
+    <system-out><![CDATA[Test-FFTest Failure
+]]></system-out>
+    <system-err><![CDATA[[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 31350, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 31350, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Feb 05, 2018 12:30:53 PM BaseConfigs.BrowserFactory getDriver
+INFO: Start firefox
+1517826653017	geckodriver	INFO	geckodriver 0.19.1
+1517826653024	geckodriver	INFO	Listening on 127.0.0.1:8952
+1517826653152	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/_y/wj65np8n3d5dctbqf0zwv5jc0000gn/T/rust_mozprofile.2R859WrRXsV7"
+1517826653606	Marionette	INFO	Enabled via --marionette
+2018-02-05 12:30:54.355 plugin-container[31362:3723772] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb44b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-02-05 12:30:54.356 plugin-container[31362:3723772] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:30:54.357 plugin-container[31362:3723772] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:30:54.357 plugin-container[31362:3723772] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:30:54.358 plugin-container[31362:3723772] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+1517826654683	Marionette	INFO	Listening on port 58242
+1517826654741	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 05, 2018 12:30:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2018-02-05 12:30:55.238 plugin-container[31364:3723925] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-02-05 12:30:55.238 plugin-container[31364:3723925] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:30:55.239 plugin-container[31364:3723925] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:30:55.239 plugin-container[31364:3723925] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:30:55.240 plugin-container[31364:3723925] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+]]></system-err>
+  </testcase>
+  <testcase name="login" classname="tests.LoginPageTest" time="0.657">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@value=&apos;Sign in&apos;])[1]&quot;}&#10;  (Session info: chrome=63.0.3239.132)&#10;  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;MacBook-Pro-Pavel.local&apos;, ip: &apos;fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/_y/wj65np8n3d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}&#10;Session ID: 2704e0d583e9811d2e1966e8acf554e3&#10;*** Element info: {Using=xpath, value=(//*[@value=&apos;Sign in&apos;])[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@value='Sign in'])[1]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-Pavel.local', ip: 'fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/_y/wj65np8n3d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 2704e0d583e9811d2e1966e8acf554e3
+*** Element info: {Using=xpath, value=(//*[@value='Sign in'])[1]}
+	at tests.LoginPageTest.login(LoginPageTest.java:21)
+</failure>
+    <system-out><![CDATA[Test-CHTest Failure
+]]></system-out>
+    <system-err><![CDATA[Feb 05, 2018 12:31:20 PM BaseConfigs.BrowserFactory getDriver
+INFO: Start chrome
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 13506
+Only local connections are allowed.
+Feb 05, 2018 12:31:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="3.497">
+    <failure message="Unable to locate element: (//*[@value=&apos;Sign in&apos;])[1]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;MacBook-Pro-Pavel.local&apos;, ip: &apos;fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31373, moz:profile: /var/folders/_y/wj65np8n3d5..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 5663f287-42e1-1043-8540-5edf33c32779&#10;*** Element info: {Using=xpath, value=(//*[@value=&apos;Sign in&apos;])[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: (//*[@value='Sign in'])[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-Pavel.local', ip: 'fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31373, moz:profile: /var/folders/_y/wj65np8n3d5..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 5663f287-42e1-1043-8540-5edf33c32779
+*** Element info: {Using=xpath, value=(//*[@value='Sign in'])[1]}
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:48)
+</failure>
+    <system-out><![CDATA[Test-FFTest Failure
+]]></system-out>
+    <system-err><![CDATA[Feb 05, 2018 12:30:58 PM BaseConfigs.BrowserFactory getDriver
+INFO: Start firefox
+1517826658989	geckodriver	INFO	geckodriver 0.19.1
+1517826658997	geckodriver	INFO	Listening on 127.0.0.1:39028
+1517826659105	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/_y/wj65np8n3d5dctbqf0zwv5jc0000gn/T/rust_mozprofile.vTeOoh4Y2O4F"
+1517826659551	Marionette	INFO	Enabled via --marionette
+2018-02-05 12:31:00.311 plugin-container[31375:3724682] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xae3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-02-05 12:31:00.311 plugin-container[31375:3724682] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:31:00.312 plugin-container[31375:3724682] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:31:00.312 plugin-container[31375:3724682] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:31:00.314 plugin-container[31375:3724682] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+1517826660660	Marionette	INFO	Listening on port 58417
+1517826660701	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 05, 2018 12:31:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2018-02-05 12:31:01.212 plugin-container[31377:3724775] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xae37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-02-05 12:31:01.212 plugin-container[31377:3724775] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:31:01.213 plugin-container[31377:3724775] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:31:01.213 plugin-container[31377:3724775] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:31:01.214 plugin-container[31377:3724775] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+Feb 05, 2018 12:31:03 PM tests.LoginPageTest incorrectLogin
+INFO: T#01 for invalid email :Sir_Bobby@i.ua1 pass: Aa!19141983
+]]></system-err>
+  </testcase>
+  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="2.426">
+    <failure message="Unable to locate element: (//*[@value=&apos;Sign in&apos;])[1]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;MacBook-Pro-Pavel.local&apos;, ip: &apos;fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31386, moz:profile: /var/folders/_y/wj65np8n3d5..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: df56c41a-28b5-0444-929b-add2b934ba8b&#10;*** Element info: {Using=xpath, value=(//*[@value=&apos;Sign in&apos;])[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: (//*[@value='Sign in'])[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-Pavel.local', ip: 'fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31386, moz:profile: /var/folders/_y/wj65np8n3d5..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: df56c41a-28b5-0444-929b-add2b934ba8b
+*** Element info: {Using=xpath, value=(//*[@value='Sign in'])[1]}
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:48)
+</failure>
+    <system-out><![CDATA[Test-FFTest Failure
+]]></system-out>
+    <system-err><![CDATA[[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 31375, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 70[9
+[Child 31375, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Feb 05, 2018 12:31:07 PM BaseConfigs.BrowserFactory getDriver
+INFO: Start firefox
+1517826667566	geckodriver	INFO	geckodriver 0.19.1
+1517826667583	geckodriver	INFO	Listening on 127.0.0.1:13696
+1517826667706	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/_y/wj65np8n3d5dctbqf0zwv5jc0000gn/T/rust_mozprofile.TuXhivKU2olV"
+1517826668151	Marionette	INFO	Enabled via --marionette
+2018-02-05 12:31:08.920 plugin-container[31388:3725501] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb33f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-02-05 12:31:08.920 plugin-container[31388:3725501] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:31:08.921 plugin-container[31388:3725501] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:31:08.921 plugin-container[31388:3725501] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:31:08.922 plugin-container[31388:3725501] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+1517826669267	Marionette	INFO	Listening on port 58594
+1517826669297	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 05, 2018 12:31:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2018-02-05 12:31:09.827 plugin-container[31390:3725593] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa847, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-02-05 12:31:09.827 plugin-container[31390:3725593] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:31:09.827 plugin-container[31390:3725593] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:31:09.828 plugin-container[31390:3725593] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-02-05 12:31:09.829 plugin-container[31390:3725593] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+Feb 05, 2018 12:31:12 PM tests.LoginPageTest incorrectLogin
+INFO: T#02 for invalid pass :Sir_Bobby@i.ua pass: 123
+]]></system-err>
+  </testcase>
+  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="0.737">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@value=&apos;Sign in&apos;])[1]&quot;}&#10;  (Session info: chrome=63.0.3239.132)&#10;  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;MacBook-Pro-Pavel.local&apos;, ip: &apos;fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/_y/wj65np8n3d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}&#10;Session ID: 3eea57badb29aa9acc45c3c77b8c7d4d&#10;*** Element info: {Using=xpath, value=(//*[@value=&apos;Sign in&apos;])[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@value='Sign in'])[1]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-Pavel.local', ip: 'fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/_y/wj65np8n3d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 3eea57badb29aa9acc45c3c77b8c7d4d
+*** Element info: {Using=xpath, value=(//*[@value='Sign in'])[1]}
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:48)
+</failure>
+    <system-out><![CDATA[Test-CHTest Failure
+]]></system-out>
+    <system-err><![CDATA[Feb 05, 2018 12:31:24 PM BaseConfigs.BrowserFactory getDriver
+INFO: Start chrome
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 28434
+Only local connections are allowed.
+Feb 05, 2018 12:31:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 05, 2018 12:31:27 PM tests.LoginPageTest incorrectLogin
+INFO: T#01 for invalid email :Sir_Bobby@i.ua1 pass: Aa!19141983
+]]></system-err>
+  </testcase>
+  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="4.596"/>
 </testsuite>

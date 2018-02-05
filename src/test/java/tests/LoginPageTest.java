@@ -51,7 +51,6 @@ public class LoginPageTest extends BaseConditions {
         String actualErrorMessage = loginPage.getLoginErrorMessage();
         System.out.println("AR- " + actualErrorMessage);
         System.out.println("ER- " + expectedErrorMessage);
-        System.out.println("Text- " + loginPage.getMainLogo());
         Assert.assertTrue(actualErrorMessage.equals(expectedErrorMessage));
 
     }

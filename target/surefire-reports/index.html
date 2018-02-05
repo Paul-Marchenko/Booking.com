@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                    <span class="method-stats">8 methods, 7 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -110,6 +110,31 @@
                         <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.MainPageTest" hash-for-method="displayLogo">displayLogo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})">incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})">incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})">incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content failed suite-TestsSuite -->
                   </li>
                   <li>
@@ -124,31 +149,6 @@
                         <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})">incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})">incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})">incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})">incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-TestsSuite -->
                   </li>
                 </ul>
@@ -161,6 +161,182 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TestsSuite" class="panel TestsSuite">
+          <div class="suite-TestsSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})">
+                  </a> <!-- incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua}) -->
+                  <span class="method-name">incorrectLogin</span>
+                  <span class="parameters">({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: (//*[@value=&apos;Sign in&apos;])[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;MacBook-Pro-Pavel.local&apos;, ip: &apos;fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31386, moz:profile: /var/folders/_y/wj65np8n3d5..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: df56c41a-28b5-0444-929b-add2b934ba8b
+*** Element info: {Using=xpath, value=(//*[@value=&apos;Sign in&apos;])[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at BaseConfigs.BasePageObject.find(BasePageObject.java:30)
+	at BaseConfigs.BasePageObject.openElement(BasePageObject.java:37)
+	at pages.LoginPage.loginToPage(LoginPage.java:35)
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:48)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})">
+                  </a> <!-- incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1}) -->
+                  <span class="method-name">incorrectLogin</span>
+                  <span class="parameters">({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: (//*[@value=&apos;Sign in&apos;])[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;MacBook-Pro-Pavel.local&apos;, ip: &apos;fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31373, moz:profile: /var/folders/_y/wj65np8n3d5..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 5663f287-42e1-1043-8540-5edf33c32779
+*** Element info: {Using=xpath, value=(//*[@value=&apos;Sign in&apos;])[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at BaseConfigs.BasePageObject.find(BasePageObject.java:30)
+	at BaseConfigs.BasePageObject.openElement(BasePageObject.java:37)
+	at pages.LoginPage.loginToPage(LoginPage.java:35)
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:48)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})">
+                  </a> <!-- incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1}) -->
+                  <span class="method-name">incorrectLogin</span>
+                  <span class="parameters">({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@value=&apos;Sign in&apos;])[1]&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;MacBook-Pro-Pavel.local&apos;, ip: &apos;fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/_y/wj65np8n3d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 3eea57badb29aa9acc45c3c77b8c7d4d
+*** Element info: {Using=xpath, value=(//*[@value=&apos;Sign in&apos;])[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at BaseConfigs.BasePageObject.find(BasePageObject.java:30)
+	at BaseConfigs.BasePageObject.openElement(BasePageObject.java:37)
+	at pages.LoginPage.loginToPage(LoginPage.java:35)
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:48)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: (//*[@value=&apos;Sign in&apos;])[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;MacBook-Pro-Pavel.local&apos;, ip: &apos;fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31360, moz:profile: /var/folders/_y/wj65np8n3d5..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 75142490-1eed-694f-8570-239358103042
+*** Element info: {Using=xpath, value=(//*[@value=&apos;Sign in&apos;])[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at BaseConfigs.BasePageObject.find(BasePageObject.java:30)
+	at BaseConfigs.BasePageObject.openElement(BasePageObject.java:37)
+	at pages.LoginPage.loginToPage(LoginPage.java:35)
+	at tests.LoginPageTest.login(LoginPageTest.java:21)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@value=&apos;Sign in&apos;])[1]&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;MacBook-Pro-Pavel.local&apos;, ip: &apos;fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/_y/wj65np8n3d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 2704e0d583e9811d2e1966e8acf554e3
+*** Element info: {Using=xpath, value=(//*[@value=&apos;Sign in&apos;])[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at BaseConfigs.BasePageObject.find(BasePageObject.java:30)
+	at BaseConfigs.BasePageObject.openElement(BasePageObject.java:37)
+	at pages.LoginPage.loginToPage(LoginPage.java:35)
+	at tests.LoginPageTest.login(LoginPageTest.java:21)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestsSuite-class-failed -->
           <div class="suite-TestsSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
@@ -205,50 +381,12 @@
                   <span class="parameters">({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})">
-                  </a> <!-- incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1}) -->
-                  <span class="method-name">incorrectLogin</span>
-                  <span class="parameters">({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})">
-                  </a> <!-- incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1}) -->
-                  <span class="method-name">incorrectLogin</span>
-                  <span class="parameters">({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})">
-                  </a> <!-- incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua}) -->
-                  <span class="method-name">incorrectLogin</span>
-                  <span class="parameters">({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-TestsSuite-class-passed -->
         </div> <!-- panel TestsSuite -->
         <div panel-name="test-xml-TestsSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/home/pmarchenko/Documents/Autotests/Booking.com/src/test/resources/testng.xml</span>
+            <span class="header-content">/Users/pavel/IdeaProjects/Booking.com/src/test/resources/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -258,7 +396,7 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;BaseConfigs.TestListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test verbose=&quot;0&quot; name=&quot;LoginTest-FF&quot;&gt;
+  &lt;test verbose=&quot;0&quot; name=&quot;Test-FF&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;packages&gt;
       &lt;package name=&quot;tests&quot;/&gt;
@@ -267,8 +405,8 @@
       &lt;class name=&quot;tests.LoginPageTest&quot;/&gt;
       &lt;class name=&quot;tests.MainPageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- LoginTest-FF --&gt;
-  &lt;test verbose=&quot;0&quot; name=&quot;LoginTest-CH&quot;&gt;
+  &lt;/test&gt; &lt;!-- Test-FF --&gt;
+  &lt;test verbose=&quot;0&quot; name=&quot;Test-CH&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;packages&gt;
       &lt;package name=&quot;tests&quot;/&gt;
@@ -277,7 +415,7 @@
       &lt;class name=&quot;tests.LoginPageTest&quot;/&gt;
       &lt;class name=&quot;tests.MainPageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- LoginTest-CH --&gt;
+  &lt;/test&gt; &lt;!-- Test-CH --&gt;
 &lt;/suite&gt; &lt;!-- TestsSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -289,10 +427,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">LoginTest-FF (2 classes)</span>
+                <span class="test-name">Test-FF (2 classes)</span>
               </li>
               <li>
-                <span class="test-name">LoginTest-CH (2 classes)</span>
+                <span class="test-name">Test-CH (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -336,42 +474,42 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
+data.setCell(0, 1, 'incorrectLogin')
 data.setCell(0, 2, 'tests.LoginPageTest')
-data.setCell(0, 3, 7134);
+data.setCell(0, 3, 4595);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'incorrectLogin')
 data.setCell(1, 2, 'tests.LoginPageTest')
-data.setCell(1, 3, 6536);
+data.setCell(1, 3, 3496);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'incorrectLogin')
 data.setCell(2, 2, 'tests.LoginPageTest')
-data.setCell(2, 3, 6302);
+data.setCell(2, 3, 2424);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'login')
-data.setCell(3, 2, 'tests.LoginPageTest')
-data.setCell(3, 3, 6126);
+data.setCell(3, 1, 'displayLogo')
+data.setCell(3, 2, 'tests.MainPageTest')
+data.setCell(3, 3, 1505);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'incorrectLogin')
-data.setCell(4, 2, 'tests.LoginPageTest')
-data.setCell(4, 3, 5875);
+data.setCell(4, 1, 'displayLogo')
+data.setCell(4, 2, 'tests.MainPageTest')
+data.setCell(4, 3, 1482);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'incorrectLogin')
+data.setCell(5, 1, 'login')
 data.setCell(5, 2, 'tests.LoginPageTest')
-data.setCell(5, 3, 5739);
+data.setCell(5, 3, 867);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'displayLogo')
-data.setCell(6, 2, 'tests.MainPageTest')
-data.setCell(6, 3, 1802);
+data.setCell(6, 1, 'incorrectLogin')
+data.setCell(6, 2, 'tests.LoginPageTest')
+data.setCell(6, 3, 735);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'displayLogo')
-data.setCell(7, 2, 'tests.MainPageTest')
-data.setCell(7, 3, 1523);
+data.setCell(7, 1, 'login')
+data.setCell(7, 2, 'tests.LoginPageTest')
+data.setCell(7, 3, 656);
 window.suiteTableData['TestsSuite']= { tableData: data, tableDiv: 'times-div-TestsSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 41 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-TestsSuite">
               </div> <!-- times-div-TestsSuite -->
             </div> <!-- times-div -->
@@ -399,129 +537,139 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.MainPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@17d919b6)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@5a37d3ed)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-start">26 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">displayLogo</span>
-                <span class="method-start">6723 ms</span>
+                <span class="method-start">6873 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8269 ms</span>
+                <span class="method-start">8365 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@17d919b6)</span>
-                <span class="method-start">8774 ms</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@5a37d3ed)</span>
+                <span class="method-start">8605 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">8774 ms</span>
+                <span class="method-start">8606 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">login</span>
-                <span class="method-start">14136 ms</span>
+                <span class="method-start">13459 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20262 ms</span>
+                <span class="method-start">14329 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">20711 ms</span>
+                <span class="method-start">14578 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</span>
-                <span class="method-start">25086 ms</span>
+                <span class="method-start">19450 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">30826 ms</span>
+                <span class="method-start">22948 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">31189 ms</span>
+                <span class="method-start">23159 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})</span>
-                <span class="method-start">36541 ms</span>
+                <span class="method-start">28162 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">42416 ms</span>
+                <span class="method-start">30587 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.MainPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@7d61eb55)</span>
-                <span class="method-start">42890 ms</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@26df6e3a)</span>
+                <span class="method-start">30850 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">42890 ms</span>
+                <span class="method-start">30851 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">displayLogo</span>
-                <span class="method-start">46283 ms</span>
+                <span class="method-start">34350 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">48085 ms</span>
+                <span class="method-start">35855 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@7d61eb55)</span>
-                <span class="method-start">48164 ms</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@26df6e3a)</span>
+                <span class="method-start">35930 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">48164 ms</span>
+                <span class="method-start">35931 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">login</span>
-                <span class="method-start">51422 ms</span>
+                <span class="method-start">39038 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">58557 ms</span>
+                <span class="method-start">39695 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">58634 ms</span>
+                <span class="method-start">39770 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</span>
-                <span class="method-start">61900 ms</span>
+                <span class="method-start">43019 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">68436 ms</span>
+                <span class="method-start">43755 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">68510 ms</span>
+                <span class="method-start">43829 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})</span>
-                <span class="method-start">71885 ms</span>
+                <span class="method-start">47640 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">78187 ms</span>
+                <span class="method-start">52236 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

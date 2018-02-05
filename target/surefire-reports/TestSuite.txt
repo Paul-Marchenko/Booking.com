@@ -1,12 +1,78 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 78.671 s <<< FAILURE! - in TestSuite
-displayLogo(tests.MainPageTest)  Time elapsed: 1.53 s  <<< FAILURE!
+Tests run: 8, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 52.628 s <<< FAILURE! - in TestSuite
+displayLogo(tests.MainPageTest)  Time elapsed: 1.493 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at tests.MainPageTest.displayLogo(MainPageTest.java:23)
 
-displayLogo(tests.MainPageTest)  Time elapsed: 1.802 s  <<< FAILURE!
+login(tests.LoginPageTest)  Time elapsed: 0.872 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: (//*[@value='Sign in'])[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-Pavel.local', ip: 'fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31360, moz:profile: /var/folders/_y/wj65np8n3d5..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 75142490-1eed-694f-8570-239358103042
+*** Element info: {Using=xpath, value=(//*[@value='Sign in'])[1]}
+	at tests.LoginPageTest.login(LoginPageTest.java:21)
+
+incorrectLogin(tests.LoginPageTest)  Time elapsed: 3.497 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: (//*[@value='Sign in'])[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-Pavel.local', ip: 'fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31373, moz:profile: /var/folders/_y/wj65np8n3d5..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 5663f287-42e1-1043-8540-5edf33c32779
+*** Element info: {Using=xpath, value=(//*[@value='Sign in'])[1]}
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:48)
+
+incorrectLogin(tests.LoginPageTest)  Time elapsed: 2.426 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: (//*[@value='Sign in'])[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-Pavel.local', ip: 'fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31386, moz:profile: /var/folders/_y/wj65np8n3d5..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: df56c41a-28b5-0444-929b-add2b934ba8b
+*** Element info: {Using=xpath, value=(//*[@value='Sign in'])[1]}
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:48)
+
+displayLogo(tests.MainPageTest)  Time elapsed: 1.505 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at tests.MainPageTest.displayLogo(MainPageTest.java:23)
+
+login(tests.LoginPageTest)  Time elapsed: 0.657 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@value='Sign in'])[1]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-Pavel.local', ip: 'fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/_y/wj65np8n3d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 2704e0d583e9811d2e1966e8acf554e3
+*** Element info: {Using=xpath, value=(//*[@value='Sign in'])[1]}
+	at tests.LoginPageTest.login(LoginPageTest.java:21)
+
+incorrectLogin(tests.LoginPageTest)  Time elapsed: 0.737 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@value='Sign in'])[1]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-Pavel.local', ip: 'fe80:0:0:0:9a01:a7ff:fe9d:e4d3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/_y/wj65np8n3d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 3eea57badb29aa9acc45c3c77b8c7d4d
+*** Element info: {Using=xpath, value=(//*[@value='Sign in'])[1]}
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:48)
 

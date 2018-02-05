@@ -1,6 +1,7 @@
 package tests;
 
 import BaseConfigs.BaseConditions;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -17,10 +18,12 @@ public class MainPageTest extends BaseConditions {
 
         MainPage mainPage = new MainPage(driver, logger);
         mainPage.openMainPage();
+        String title = mainPage.getTitle();
         String actualMainLogo = mainPage.getMainLogoName();
         System.out.println("AR- " + actualMainLogo);
         System.out.println("ER- " + expectedMainLogo);
         Assert.assertTrue(actualMainLogo.equals(expectedMainLogo));
+        Assert.assertTrue(mainPage.isElementPresent());
 
     }
 }

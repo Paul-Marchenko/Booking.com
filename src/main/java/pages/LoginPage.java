@@ -10,10 +10,10 @@ public class LoginPage extends MainPage {
     private By signInButton = By.xpath("(//*[@class='sign_in_wrapper'])[2]");
     private By emailField = By.xpath("(//*[@name='username'])[1]");
     private By passwordField = By.xpath("(//*[@name='password'])[1]");
-    private By loginSignIn = By.xpath("(//*[@value='Sign in'])[1]");
+    private By loginSignIn = By.xpath("(//*[@value='Sign in' and @class='bootstrapped-input btn btn-primary  '])");
     private By profileLastName = By.cssSelector("#current_account");
     //private By profileLastName = By.xpath("//*[@id='current_account']/a/span[1]/img");
-    private By mainLogo = By.cssSelector("#logo_no_globe_new_logo");
+
     private By errorMessage = By.cssSelector(".alert-displayed");
 
     public LoginPage(WebDriver driver, Logger logger) {
@@ -25,7 +25,7 @@ public class LoginPage extends MainPage {
     }
 
     public void fullUpCredentials(String emailAdress, String password) {
-        waitForVisibility(emailField);
+        waitForVisibility(emailField,30);
         type(emailAdress, emailField);
         type(password, passwordField);
 
@@ -35,13 +35,9 @@ public class LoginPage extends MainPage {
         openElement(loginSignIn);
     }
 
-    public String getMainLogo() {
-
-        return getText(mainLogo);
-    }
 
     public String getLoginErrorMessage() {
-        waitForVisibility(errorMessage, 10);
+        waitForVisibility(errorMessage, 30);
         return getText(errorMessage);
     }
 
