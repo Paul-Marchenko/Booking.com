@@ -34,7 +34,7 @@
           <include name="login"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="incorrectLogin" invocation-numbers="0"/>
+          <include name="incorrectLogin"/>
           <include name="setUpClass"/>
         </methods>
       </class> <!-- tests.LoginPageTest -->

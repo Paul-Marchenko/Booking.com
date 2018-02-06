@@ -10,7 +10,7 @@ public class LoginPage extends MainPage {
     private By signInButton = By.xpath("(//*[@class='sign_in_wrapper'])[2]");
     private By emailField = By.xpath("(//*[@name='username'])[1]");
     private By passwordField = By.xpath("(//*[@name='password'])[1]");
-    private By loginSignIn = By.xpath("(//*[@value='Sign in' and @class='bootstrapped-input btn btn-primary  '])");
+    private By loginSignIn = By.cssSelector("input.bootstrapped-input:nth-child(16)");
     private By profileLastName = By.cssSelector("#current_account");
     //private By profileLastName = By.xpath("//*[@id='current_account']/a/span[1]/img");
 

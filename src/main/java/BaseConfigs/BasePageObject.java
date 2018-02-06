@@ -41,7 +41,7 @@ public class BasePageObject <T> {
     }
     protected String getText(By element){
 
-        return find(element).getAttribute(String.valueOf(element));
+        return find(element).getText();
 
     }
     public boolean confirmationPresentElement(By element){
