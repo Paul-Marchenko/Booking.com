@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="78.671" tests="8" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="114.225" tests="16" errors="0" skipped="4" failures="12">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/pmarchenko/Documents/Autotests/Booking.com/target/surefire/surefirebooter674984659550748059.jar /home/pmarchenko/Documents/Autotests/Booking.com/target/surefire 2018-02-02T13-06-29_629-jvmRun1 surefire3798503344016781415tmp surefire_08968223419446381914tmp"/>
+    <property name="sun.java.command" value="/home/pmarchenko/Documents/Autotests/Booking.com/target/surefire/surefirebooter3142144474971759246.jar /home/pmarchenko/Documents/Autotests/Booking.com/target/surefire 2018-02-06T15-44-35_035-jvmRun1 surefire8030131360198579822tmp surefire_01430256238211126245tmp"/>
     <property name="surefire.test.class.path" value="/home/pmarchenko/Documents/Autotests/Booking.com/target/test-classes:/home/pmarchenko/Documents/Autotests/Booking.com/target/classes:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-java/3.8.1/selenium-java-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.8.1/selenium-chrome-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.8.1/selenium-edge-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.8.1/selenium-ie-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.8.1/selenium-opera-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.8.1/selenium-safari-driver-3.8.1.jar:/home/pmarchenko/.m2/repository/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar:/home/pmarchenko/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/home/pmarchenko/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/pmarchenko/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/pmarchenko/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/pmarchenko/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/pmarchenko/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/home/pmarchenko/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/pmarchenko/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/home/pmarchenko/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/pmarchenko/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/pmarchenko/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/pmarchenko/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/pmarchenko/.m2/repository/org/testng/testng/6.13.1/testng-6.13.1.jar:/home/pmarchenko/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/pmarchenko/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/home/pmarchenko/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/pmarchenko/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/home/pmarchenko/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/pmarchenko"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/pmarchenko/Documents/Autotests/Booking.com/target/surefire/surefirebooter674984659550748059.jar"/>
+    <property name="surefire.real.class.path" value="/home/pmarchenko/Documents/Autotests/Booking.com/target/surefire/surefirebooter3142144474971759246.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_151-8u151-b12-0ubuntu0.17.10.2-b12"/>
@@ -58,51 +58,439 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="displayLogo" classname="tests.MainPageTest" time="1.53">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at tests.MainPageTest.displayLogo(MainPageTest.java:23)
+  <testcase name="displayLogo" classname="tests.MainPageTest" time="1.367">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at tests.MainPageTest.displayLogo(MainPageTest.java:25)
 </failure>
-    <system-out><![CDATA[LoginTest-FFTest Start
-AR- 
+    <system-out><![CDATA[Test-FFTest Start
+AR- null
 ER- Booking.com Online Hotel Reservations
-LoginTest-FFTest Failure
+Test-FFTest Failure
 ]]></system-out>
-    <system-err><![CDATA[Feb 02, 2018 1:06:30 PM BaseConfigs.BrowserFactory getDriver
+    <system-err><![CDATA[Feb 06, 2018 3:44:36 PM BaseConfigs.BrowserFactory getDriver
 INFO: Start firefox
-1517569591100	geckodriver	INFO	geckodriver 0.19.1
-1517569591105	geckodriver	INFO	Listening on 127.0.0.1:11171
-1517569591432	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6gH3Zk1pGhtS"
-1517569592206	Marionette	INFO	Enabled via --marionette
-1517569593987	Marionette	INFO	Listening on port 34927
-1517569594057	Marionette	WARN	TLS certificate errors will be ignored for this session
-Feb 02, 2018 1:06:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1517924676591	geckodriver	INFO	geckodriver 0.19.1
+1517924676595	geckodriver	INFO	Listening on 127.0.0.1:21766
+1517924676900	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.PRFF7z4fhuI2"
+1517924677422	Marionette	INFO	Enabled via --marionette
+1517924679590	Marionette	INFO	Listening on port 45615
+1517924679634	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 06, 2018 3:44:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="displayLogo" classname="tests.MainPageTest" time="1.802">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at tests.MainPageTest.displayLogo(MainPageTest.java:23)
+  <testcase name="displayLogo" classname="tests.MainPageTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-32-generic&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="login" classname="tests.LoginPageTest" time="1.824">
+    <failure message="Unable to locate element: (//*[@value=&apos;Sign in&apos; and @class=&apos;bootstrapped-input btn btn-primary  &apos;])&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-32-generic&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4192, moz:profile: /tmp/rust_mozprofile.7V5Abk..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 57045eca-7cfa-486a-a7fb-d5c4474e4252&#10;*** Element info: {Using=xpath, value=(//*[@value=&apos;Sign in&apos; and @class=&apos;bootstrapped-input btn btn-primary  &apos;])}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: (//*[@value='Sign in' and @class='bootstrapped-input btn btn-primary  '])
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4192, moz:profile: /tmp/rust_mozprofile.7V5Abk..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 57045eca-7cfa-486a-a7fb-d5c4474e4252
+*** Element info: {Using=xpath, value=(//*[@value='Sign in' and @class='bootstrapped-input btn btn-primary  '])}
+	at tests.LoginPageTest.login(LoginPageTest.java:21)
 </failure>
-    <system-out><![CDATA[LoginTest-FFTest Finish
-LoginTest-CHTest Start
-AR- 
-ER- Booking.com Online Hotel Reservations
-LoginTest-CHTest Failure
+    <system-out><![CDATA[Test-FFTest Failure
 ]]></system-out>
-    <system-err><![CDATA[[Child 9573, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-mnaFRO/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-[Child 9573, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-mnaFRO/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-Feb 02, 2018 1:07:13 PM BaseConfigs.BrowserFactory getDriver
-INFO: Start chrome
-Starting ChromeDriver 2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881) on port 2476
-Only local connections are allowed.
-Feb 02, 2018 1:07:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
+    <system-err><![CDATA[[Child 4058, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-mnaFRO/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4058, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-mnaFRO/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4058, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-mnaFRO/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Feb 06, 2018 3:44:44 PM BaseConfigs.BrowserFactory getDriver
+INFO: Start firefox
+1517924684792	geckodriver	INFO	geckodriver 0.19.1
+1517924684797	geckodriver	INFO	Listening on 127.0.0.1:1645
+1517924684935	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.7V5AbklL3Jks"
+1517924685560	Marionette	INFO	Enabled via --marionette
+1517924687695	Marionette	INFO	Listening on port 33935
+1517924687761	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 06, 2018 3:44:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+(/usr/lib/firefox/firefox:4264): dconf-WARNING **: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
 ]]></system-err>
   </testcase>
-  <testcase name="login" classname="tests.LoginPageTest" time="6.128"/>
-  <testcase name="login" classname="tests.LoginPageTest" time="7.134"/>
-  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="5.735"/>
-  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="5.873"/>
-  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="6.536"/>
-  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="6.301"/>
+  <testcase name="login" classname="tests.LoginPageTest" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-32-generic&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="0.744">
+    <failure message="Unable to locate element: (//*[@value=&apos;Sign in&apos; and @class=&apos;bootstrapped-input btn btn-primary  &apos;])&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-32-generic&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4387, moz:profile: /tmp/rust_mozprofile.8iQhtO..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 00b41d5e-2808-4869-af1e-5f7e95a207d2&#10;*** Element info: {Using=xpath, value=(//*[@value=&apos;Sign in&apos; and @class=&apos;bootstrapped-input btn btn-primary  &apos;])}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: (//*[@value='Sign in' and @class='bootstrapped-input btn btn-primary  '])
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4387, moz:profile: /tmp/rust_mozprofile.8iQhtO..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 00b41d5e-2808-4869-af1e-5f7e95a207d2
+*** Element info: {Using=xpath, value=(//*[@value='Sign in' and @class='bootstrapped-input btn btn-primary  '])}
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:48)
+</failure>
+    <system-out><![CDATA[Test-FFTest Failure
+]]></system-out>
+    <system-err><![CDATA[[[GFXC1h-i]l:d  R4e2c6e4i,v eC hIrPoCm ec_lCohsiel dwTihtrhe arde]a sWAoRnN=IANbGn:o rpmiapleS heurtrdoorw n(
+44): Connection reset by peer: file /build/firefox-mnaFRO/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4264, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-mnaFRO/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4264, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-mnaFRO/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4324, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-mnaFRO/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0016,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayeFeb 06, 2018 3:44:52 PM BaseConfigs.BrowserFactory getDriver
+INFO: Start firefox
+1517924692645	geckodriver	INFO	geckodriver 0.19.1
+1517924692653	geckodriver	INFO	Listening on 127.0.0.1:3404
+1517924692822	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.8iQhtOs6lVqZ"
+1517924693360	Marionette	INFO	Enabled via --marionette
+1517924694696	Marionette	INFO	Listening on port 40773
+1517924694772	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 06, 2018 3:44:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 06, 2018 3:44:57 PM tests.LoginPageTest incorrectLogin
+INFO: T#01 for invalid email :Sir_Bobby@i.ua1 pass: Aa!19141983
+]]></system-err>
+  </testcase>
+  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="5.668">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:54)
+</failure>
+    <system-out><![CDATA[AR- null
+ER- You entered an email address/password combination that doesn't match. I forgot
+Test-FFTest Failure
+]]></system-out>
+    <system-err><![CDATA[
+(/usr/lib/firefox/firefox:4452): dconf-WARNING **: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Feb 06, 2018 3:44:59 PM BaseConfigs.BrowserFactory getDriver
+INFO: Start firefox
+1517924699186	geckodriver	INFO	geckodriver 0.19.1
+1517924699190	geckodriver	INFO	Listening on 127.0.0.1:18736
+1517924699315	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.P0HOz9hFGNUD"
+1517924699856	Marionette	INFO	Enabled via --marionette
+1517924701159	Marionette	INFO	Listening on port 35783
+1517924701224	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 06, 2018 3:45:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 06, 2018 3:45:03 PM tests.LoginPageTest incorrectLogin
+INFO: T#02 for invalid pass :Sir_Bobby@i.ua pass: 123
+]]></system-err>
+  </testcase>
+  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="incorrectLogin" classname="tests.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="tests.MainPageTest" time="26.164">
+    <failure message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-32-generic&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:30956/status] to be available after 20000 ms
+Caused by: java.util.concurrent.TimeoutException
+</failure>
+    <system-out><![CDATA[Test-FFTest Finish
+Test-CHTest Start
+]]></system-out>
+    <system-err><![CDATA[Feb 06, 2018 3:45:09 PM BaseConfigs.BrowserFactory getDriver
+INFO: Start chrome
+/home/pmarchenko/Documents/Autotests/Booking.com/src/main/resources/chromedriver: 1: /home/pmarchenko/Documents/Autotests/Booking.com/src/main/resources/chromedriver: Syntax error: "(" unexpected
+Feb 06, 2018 3:45:29 PM org.openqa.selenium.os.OsProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Process exited with an error: 2 (Exit value: 2)
+]]></system-err>
+  </testcase>
+  <testcase name="tearDown" classname="tests.MainPageTest" time="26.165">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="tests.LoginPageTest" time="46.168">
+    <failure message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-32-generic&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:1779/status] to be available after 20000 ms
+Caused by: java.util.concurrent.TimeoutException
+</failure>
+    <system-err><![CDATA[Feb 06, 2018 3:45:29 PM BaseConfigs.BrowserFactory getDriver
+INFO: Start chrome
+/home/pmarchenko/Documents/Autotests/Booking.com/src/main/resources/chromedriver: 1: /home/pmarchenko/Documents/Autotests/Booking.com/src/main/resources/chromedriver: Syntax error: "(" unexpected
+Feb 06, 2018 3:45:49 PM org.openqa.selenium.os.OsProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Process exited with an error: 2 (Exit value: 2)
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="tests.LoginPageTest" time="66.172">
+    <failure message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-32-generic&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:11481/status] to be available after 20000 ms
+Caused by: java.util.concurrent.TimeoutException
+</failure>
+    <system-err><![CDATA[Feb 06, 2018 3:45:49 PM BaseConfigs.BrowserFactory getDriver
+INFO: Start chrome
+/home/pmarchenko/Documents/Autotests/Booking.com/src/main/resources/chromedriver: 1: /home/pmarchenko/Documents/Autotests/Booking.com/src/main/resources/chromedriver: Syntax error: "(" unexpected
+Feb 06, 2018 3:46:09 PM org.openqa.selenium.os.OsProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Process exited with an error: 2 (Exit value: 2)
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="tests.LoginPageTest" time="86.179">
+    <failure message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-32-generic&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:6684/status] to be available after 20000 ms
+Caused by: java.util.concurrent.TimeoutException
+</failure>
+    <system-err><![CDATA[Feb 06, 2018 3:46:09 PM BaseConfigs.BrowserFactory getDriver
+INFO: Start chrome
+/home/pmarchenko/Documents/Autotests/Booking.com/src/main/resources/chromedriver: 1: /home/pmarchenko/Documents/Autotests/Booking.com/src/main/resources/chromedriver: Syntax error: "(" unexpected
+Feb 06, 2018 3:46:29 PM org.openqa.selenium.os.OsProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Process exited with an error: 2 (Exit value: 2)
+]]></system-err>
+  </testcase>
+  <testcase name="tearDown" classname="tests.LoginPageTest" time="46.169">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+  <testcase name="tearDown" classname="tests.LoginPageTest" time="66.173">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+  <testcase name="tearDown" classname="tests.LoginPageTest" time="86.179">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
 </testsuite>

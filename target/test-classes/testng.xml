@@ -1,26 +1,23 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="TestsSuite" parallel="tests" thread-count="2">
+<suite name="TestsSuite" parallel="tests" thread-count="4">
     <listeners>
         <listener class-name="BaseConfigs.TestListener"></listener>
     </listeners>
 
-    <test name="LoginTest-FF">
+    <test name="Test-FF">
         <parameter name="browser" value="firefox"/>
-
-
         <packages>
             <package name="tests"/>
         </packages>
     </test>
 
-    <test name="LoginTest-CH">
+    <test name="Test-CH">
         <parameter name="browser" value="chrome"/>
         <packages>
             <package name="tests"/>
         </packages>
     </test>
-
 
 
 

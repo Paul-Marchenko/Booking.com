@@ -1,12 +1,84 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 78.671 s <<< FAILURE! - in TestSuite
-displayLogo(tests.MainPageTest)  Time elapsed: 1.53 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at tests.MainPageTest.displayLogo(MainPageTest.java:23)
+Tests run: 16, Failures: 12, Errors: 0, Skipped: 4, Time elapsed: 114.225 s <<< FAILURE! - in TestSuite
+displayLogo(tests.MainPageTest)  Time elapsed: 1.367 s  <<< FAILURE!
+java.lang.NullPointerException
+	at tests.MainPageTest.displayLogo(MainPageTest.java:25)
 
-displayLogo(tests.MainPageTest)  Time elapsed: 1.802 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at tests.MainPageTest.displayLogo(MainPageTest.java:23)
+login(tests.LoginPageTest)  Time elapsed: 1.824 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: (//*[@value='Sign in' and @class='bootstrapped-input btn btn-primary  '])
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4192, moz:profile: /tmp/rust_mozprofile.7V5Abk..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 57045eca-7cfa-486a-a7fb-d5c4474e4252
+*** Element info: {Using=xpath, value=(//*[@value='Sign in' and @class='bootstrapped-input btn btn-primary  '])}
+	at tests.LoginPageTest.login(LoginPageTest.java:21)
+
+incorrectLogin(tests.LoginPageTest)  Time elapsed: 0.744 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: (//*[@value='Sign in' and @class='bootstrapped-input btn btn-primary  '])
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4387, moz:profile: /tmp/rust_mozprofile.8iQhtO..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 00b41d5e-2808-4869-af1e-5f7e95a207d2
+*** Element info: {Using=xpath, value=(//*[@value='Sign in' and @class='bootstrapped-input btn btn-primary  '])}
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:48)
+
+incorrectLogin(tests.LoginPageTest)  Time elapsed: 5.668 s  <<< FAILURE!
+java.lang.NullPointerException
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:54)
+
+setUp(tests.MainPageTest)  Time elapsed: 26.164 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:30956/status] to be available after 20000 ms
+Caused by: java.util.concurrent.TimeoutException
+
+tearDown(tests.MainPageTest)  Time elapsed: 26.165 s  <<< FAILURE!
+java.lang.NullPointerException
+
+setUp(tests.LoginPageTest)  Time elapsed: 46.168 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:1779/status] to be available after 20000 ms
+Caused by: java.util.concurrent.TimeoutException
+
+tearDown(tests.LoginPageTest)  Time elapsed: 46.169 s  <<< FAILURE!
+java.lang.NullPointerException
+
+setUp(tests.LoginPageTest)  Time elapsed: 66.172 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:11481/status] to be available after 20000 ms
+Caused by: java.util.concurrent.TimeoutException
+
+tearDown(tests.LoginPageTest)  Time elapsed: 66.173 s  <<< FAILURE!
+java.lang.NullPointerException
+
+setUp(tests.LoginPageTest)  Time elapsed: 86.179 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'pmarchenko-HP-ProBook-450-G4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:6684/status] to be available after 20000 ms
+Caused by: java.util.concurrent.TimeoutException
+
+tearDown(tests.LoginPageTest)  Time elapsed: 86.179 s  <<< FAILURE!
+java.lang.NullPointerException
 

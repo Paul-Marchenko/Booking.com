@@ -7,8 +7,6 @@
 
     <test name="Test-FF">
         <parameter name="browser" value="firefox"/>
-
-
         <packages>
             <package name="tests"/>
         </packages>

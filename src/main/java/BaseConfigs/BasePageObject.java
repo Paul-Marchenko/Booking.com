@@ -40,13 +40,20 @@ public class BasePageObject <T> {
         return driver.getTitle();
     }
     protected String getText(By element){
+
         return find(element).getText();
 
+    }
+    public boolean confirmationPresentElement(By element){
+        return true;
     }
     private void waitFor (ExpectedCondition<WebElement> condition, Integer timeOutInSec){
         timeOutInSec = timeOutInSec !=null ? timeOutInSec:30;
         WebDriverWait wait = new WebDriverWait(driver, timeOutInSec);
         wait.until(condition);
+
+
+
     }
     protected void waitForVisibility(By locator, Integer ...timeOutInSec){
         int attempt = 0;
@@ -60,6 +67,8 @@ public class BasePageObject <T> {
             }
             attempt++;
         }
+
     }
+
 
 }

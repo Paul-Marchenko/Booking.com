@@ -14,12 +14,14 @@ public class BrowserFactory {
         MainPage mainPage = null;
         switch (browser) {
             case "firefox":
+                //System.setProperty("webdriver.firefox.bin","/Applications/Firefox.app/Contents/MacOS/firefox-bin");
+                //System.setProperty("webdriver.gecko.driver","src/main/resources/geckodriver");
                 driver = new FirefoxDriver();
                 mainPage = new MainPage(driver, logger);
                 mainPage.openMainPage();
                 break;
             case "chrome":
-                System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+                //System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
                 driver = new ChromeDriver();
                 mainPage = new MainPage(driver, logger);
                 mainPage.openMainPage();
