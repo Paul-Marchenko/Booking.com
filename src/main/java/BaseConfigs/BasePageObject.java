@@ -45,6 +45,11 @@ public class BasePageObject <T> {
 
     }
     public boolean confirmationPresentElement(By element){
+        if(find(element).isDisplayed()){
+            System.out.println("Element " + element +" is present");
+        }
+        else
+            System.out.println("Element " + element +" not found");
         return true;
     }
     private void waitFor (ExpectedCondition<WebElement> condition, Integer timeOutInSec){

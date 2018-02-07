@@ -14,16 +14,24 @@ public class MainPageTest extends BaseConditions {
 
     @Test(priority = 1)
     public void displayLogo() {
+        MainPage mainPage = new MainPage(driver, logger);
+        mainPage.openMainPage();
+
+        Assert.assertTrue(mainPage.isElementPresent());
+
+    }
+    @Test(priority = 1)
+    public void correctMainLogo() {
         String expectedMainLogo = "Booking.com Online Hotel Reservations";
 
         MainPage mainPage = new MainPage(driver, logger);
         mainPage.openMainPage();
-        String title = mainPage.getTitle();
+
         String actualMainLogo = mainPage.getMainLogoName();
         System.out.println("AR- " + actualMainLogo);
         System.out.println("ER- " + expectedMainLogo);
         Assert.assertTrue(actualMainLogo.equals(expectedMainLogo));
-        Assert.assertTrue(mainPage.isElementPresent());
+
 
     }
 }

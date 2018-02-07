@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 4 failed,  4 skipped,  </span>
+                    <span class="method-stats">8 methods, 5 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -107,7 +107,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})">incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.MainPageTest" hash-for-method="displayLogo">displayLogo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -117,39 +117,39 @@
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})">incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})">incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-TestsSuite -->
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-TestsSuite" class="hide-methods skipped suite-TestsSuite"> (hide)</a> <!-- hide-methods skipped suite-TestsSuite -->
-                      <a href="#" panel-name="suite-TestsSuite" class="show-methods skipped suite-TestsSuite"> (show)</a> <!-- show-methods skipped suite-TestsSuite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestsSuite" class="hide-methods passed suite-TestsSuite"> (hide)</a> <!-- hide-methods passed suite-TestsSuite -->
+                      <a href="#" panel-name="suite-TestsSuite" class="show-methods passed suite-TestsSuite"> (show)</a> <!-- show-methods passed suite-TestsSuite -->
                     </span>
-                    <div class="method-list-content skipped suite-TestsSuite">
+                    <div class="method-list-content passed suite-TestsSuite">
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.MainPageTest" hash-for-method="displayLogo">displayLogo</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})">incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="incorrectLogin">incorrectLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="incorrectLogin">incorrectLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="login">login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-TestsSuite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestsSuite" title="tests.LoginPageTest" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestsSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -164,23 +164,53 @@
           <div class="suite-TestsSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">tests.MainPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayLogo">
+                  </a> <!-- displayLogo -->
+                  <span class="method-name">displayLogo</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.MainPageTest.displayLogo(MainPageTest.java:25)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayLogo">
+                  </a> <!-- displayLogo -->
+                  <span class="method-name">displayLogo</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.MainPageTest.displayLogo(MainPageTest.java:25)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestsSuite-class-failed -->
+          <div class="suite-TestsSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">tests.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})">
-                  </a> <!-- incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1}) -->
+                  <a name="incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})">
+                  </a> <!-- incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua}) -->
                   <span class="method-name">incorrectLogin</span>
-                  <span class="parameters">({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: (//*[@value=&apos;Sign in&apos; and @class=&apos;bootstrapped-input btn btn-primary  &apos;])
+                  <span class="parameters">({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: input.bootstrapped-input:nth-child(16)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
 System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-32-generic&apos;, java.version: &apos;1.8.0_151&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4387, moz:profile: /tmp/rust_mozprofile.8iQhtO..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 00b41d5e-2808-4869-af1e-5f7e95a207d2
-*** Element info: {Using=xpath, value=(//*[@value=&apos;Sign in&apos; and @class=&apos;bootstrapped-input btn btn-primary  &apos;])}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15645, moz:profile: /tmp/rust_mozprofile.Plj94H..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a1fb0c9a-cfd0-4670-98ed-4461290c4e4d
+*** Element info: {Using=css selector, value=input.bootstrapped-input:nth-child(16)}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -188,8 +218,8 @@ Session ID: 00b41d5e-2808-4869-af1e-5f7e95a207d2
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
 	at BaseConfigs.BasePageObject.find(BasePageObject.java:30)
 	at BaseConfigs.BasePageObject.openElement(BasePageObject.java:37)
@@ -205,90 +235,88 @@ Session ID: 00b41d5e-2808-4869-af1e-5f7e95a207d2
                   </a> <!-- incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua}) -->
                   <span class="method-name">incorrectLogin</span>
                   <span class="parameters">({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:54)
-... Removed 29 stack frames
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input.bootstrapped-input:nth-child(16)&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.13.0-32-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-32-generic&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}
+Session ID: 2a6524bd96291f3d89f35d4ed9ce6fbf
+*** Element info: {Using=css selector, value=input.bootstrapped-input:nth-child(16)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at BaseConfigs.BasePageObject.find(BasePageObject.java:30)
+	at BaseConfigs.BasePageObject.openElement(BasePageObject.java:37)
+	at pages.LoginPage.loginToPage(LoginPage.java:35)
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:48)
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: (//*[@value=&apos;Sign in&apos; and @class=&apos;bootstrapped-input btn btn-primary  &apos;])
+                  <a name="incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})">
+                  </a> <!-- incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1}) -->
+                  <span class="method-name">incorrectLogin</span>
+                  <span class="parameters">({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input.bootstrapped-input:nth-child(16)&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.13.0-32-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
 System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-32-generic&apos;, java.version: &apos;1.8.0_151&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4192, moz:profile: /tmp/rust_mozprofile.7V5Abk..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 57045eca-7cfa-486a-a7fb-d5c4474e4252
-*** Element info: {Using=xpath, value=(//*[@value=&apos;Sign in&apos; and @class=&apos;bootstrapped-input btn btn-primary  &apos;])}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}
+Session ID: 176113dccc6ca98c28f613aade3c5cbd
+*** Element info: {Using=css selector, value=input.bootstrapped-input:nth-child(16)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
 	at BaseConfigs.BasePageObject.find(BasePageObject.java:30)
 	at BaseConfigs.BasePageObject.openElement(BasePageObject.java:37)
 	at pages.LoginPage.loginToPage(LoginPage.java:35)
-	at tests.LoginPageTest.login(LoginPageTest.java:21)
+	at tests.LoginPageTest.incorrectLogin(LoginPageTest.java:48)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-TestsSuite-class-failed -->
-          <div class="suite-TestsSuite-class-failed">
+          <div class="suite-TestsSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.MainPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="displayLogo">
-                  </a> <!-- displayLogo -->
-                  <span class="method-name">displayLogo</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at tests.MainPageTest.displayLogo(MainPageTest.java:25)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestsSuite-class-failed -->
-          <div class="suite-TestsSuite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">tests.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="incorrectLogin">
-                  </a> <!-- incorrectLogin -->
+                  <a name="incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})">
+                  </a> <!-- incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1}) -->
                   <span class="method-name">incorrectLogin</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at BaseConfigs.BaseConditions.tearDown(BaseConditions.java:31)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="incorrectLogin">
-                  </a> <!-- incorrectLogin -->
-                  <span class="method-name">incorrectLogin</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at BaseConfigs.BaseConditions.tearDown(BaseConditions.java:31)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
+                  <span class="parameters">({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -296,77 +324,17 @@ Session ID: 57045eca-7cfa-486a-a7fb-d5c4474e4252
                   <a name="login">
                   </a> <!-- login -->
                   <span class="method-name">login</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-32-generic&apos;, java.version: &apos;1.8.0_151&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:192)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:178)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at BaseConfigs.BrowserFactory.getDriver(BrowserFactory.java:25)
-	at BaseConfigs.BaseConditions.setUp(BaseConditions.java:26)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:1779/status] to be available after 20000 ms
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
-	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:187)
-	... 42 more
-Caused by: java.util.concurrent.TimeoutException
-	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
-	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:147)
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
-	... 43 more
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestsSuite-class-skipped -->
-          <div class="suite-TestsSuite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">tests.MainPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="displayLogo">
-                  </a> <!-- displayLogo -->
-                  <span class="method-name">displayLogo</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;pmarchenko-HP-ProBook-450-G4&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-32-generic&apos;, java.version: &apos;1.8.0_151&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:192)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:178)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at BaseConfigs.BrowserFactory.getDriver(BrowserFactory.java:25)
-	at BaseConfigs.BaseConditions.setUp(BaseConditions.java:26)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:30956/status] to be available after 20000 ms
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
-	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:187)
-	... 42 more
-Caused by: java.util.concurrent.TimeoutException
-	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
-	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:147)
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
-	... 43 more
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestsSuite-class-skipped -->
+          </div> <!-- suite-TestsSuite-class-passed -->
         </div> <!-- panel TestsSuite -->
         <div panel-name="test-xml-TestsSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -458,42 +426,42 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'incorrectLogin')
+data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'tests.LoginPageTest')
-data.setCell(0, 3, 5667);
+data.setCell(0, 3, 6996);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'login')
+data.setCell(1, 1, 'incorrectLogin')
 data.setCell(1, 2, 'tests.LoginPageTest')
-data.setCell(1, 3, 1821);
+data.setCell(1, 3, 6913);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'displayLogo')
-data.setCell(2, 2, 'tests.MainPageTest')
-data.setCell(2, 3, 1359);
+data.setCell(2, 1, 'login')
+data.setCell(2, 2, 'tests.LoginPageTest')
+data.setCell(2, 3, 6581);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'incorrectLogin')
-data.setCell(3, 2, 'tests.LoginPageTest')
-data.setCell(3, 3, 754);
+data.setCell(3, 1, 'displayLogo')
+data.setCell(3, 2, 'tests.MainPageTest')
+data.setCell(3, 3, 2485);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'login')
+data.setCell(4, 1, 'incorrectLogin')
 data.setCell(4, 2, 'tests.LoginPageTest')
-data.setCell(4, 3, 0);
+data.setCell(4, 3, 1810);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'incorrectLogin')
 data.setCell(5, 2, 'tests.LoginPageTest')
-data.setCell(5, 3, 0);
+data.setCell(5, 3, 1604);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'displayLogo')
 data.setCell(6, 2, 'tests.MainPageTest')
-data.setCell(6, 3, 0);
+data.setCell(6, 3, 1482);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'incorrectLogin')
 data.setCell(7, 2, 'tests.LoginPageTest')
-data.setCell(7, 3, 0);
+data.setCell(7, 3, 732);
 window.suiteTableData['TestsSuite']= { tableData: data, tableDiv: 'times-div-TestsSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
               <div id="times-div-TestsSuite">
               </div> <!-- times-div-TestsSuite -->
             </div> <!-- times-div -->
@@ -520,156 +488,136 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">tests.MainPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">displayLogo</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">tests.LoginPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">incorrectLogin</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">incorrectLogin</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">tests.MainPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@2e570ded)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@1130520d)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-start">28 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">displayLogo</span>
-                <span class="method-start">6824 ms</span>
+                <span class="method-start">8915 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8213 ms</span>
+                <span class="method-start">10409 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@2e570ded)</span>
-                <span class="method-start">8641 ms</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@1130520d)</span>
+                <span class="method-start">10902 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">8641 ms</span>
+                <span class="method-start">10903 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">login</span>
-                <span class="method-start">14168 ms</span>
+                <span class="method-start">15586 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15992 ms</span>
+                <span class="method-start">22582 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">16490 ms</span>
+                <span class="method-start">22962 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</span>
-                <span class="method-start">21150 ms</span>
+                <span class="method-start">27253 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21905 ms</span>
+                <span class="method-start">34166 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">23017 ms</span>
+                <span class="method-start">34516 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})</span>
-                <span class="method-start">27595 ms</span>
+                <span class="method-start">38991 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">33263 ms</span>
+                <span class="method-start">39730 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.MainPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@747f281)</span>
-                <span class="method-start">33752 ms</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@5f77d0f9)</span>
+                <span class="method-start">40148 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">33752 ms</span>
+                <span class="method-start">40148 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">displayLogo</span>
+                <span class="method-start">43282 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">53762 ms</span>
+                <span class="method-start">45768 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@747f281)</span>
-                <span class="method-start">53763 ms</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@5f77d0f9)</span>
+                <span class="method-start">45840 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">53763 ms</span>
+                <span class="method-start">45841 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">48726 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">73765 ms</span>
+                <span class="method-start">55307 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">73766 ms</span>
+                <span class="method-start">55383 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">incorrectLogin({no=1, description=invalid email, password=Aa!19141983, email=Sir_Bobby@i.ua1})</span>
+                <span class="method-start">58721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">93769 ms</span>
+                <span class="method-start">60534 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">93770 ms</span>
+                <span class="method-start">60607 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">incorrectLogin({no=2, description=invalid pass, password=123, email=Sir_Bobby@i.ua})</span>
+                <span class="method-start">63591 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">113773 ms</span>
+                <span class="method-start">65196 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

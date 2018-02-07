@@ -38,7 +38,7 @@ public class MainPage extends BasePageObject<MainPage> {
 
     public boolean isElementPresent() {
         confirmationPresentElement(mainLogo);
-        return true;
+        return false;
 
     }
 

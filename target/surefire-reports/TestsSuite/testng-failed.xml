@@ -7,45 +7,43 @@
   <test verbose="0" name="Test-FF(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
+      <class name="tests.MainPageTest">
+        <methods>
+          <include name="displayLogo"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.MainPageTest -->
       <class name="tests.LoginPageTest">
         <methods>
-          <include name="login"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="incorrectLogin" invocation-numbers="1"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Test-FF(failed) -->
+  <test verbose="0" name="Test-CH(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.MainPageTest">
+        <methods>
+          <include name="displayLogo"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.MainPageTest -->
+      <class name="tests.LoginPageTest">
+        <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="incorrectLogin" invocation-numbers="0 1"/>
           <include name="setUpClass"/>
         </methods>
       </class> <!-- tests.LoginPageTest -->
-      <class name="tests.MainPageTest">
-        <methods>
-          <include name="displayLogo"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="setUpClass"/>
-        </methods>
-      </class> <!-- tests.MainPageTest -->
-    </classes>
-  </test> <!-- Test-FF(failed) -->
-  <test verbose="0" name="Test-CH(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="tests.LoginPageTest">
-        <methods>
-          <include name="login"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="incorrectLogin"/>
-          <include name="setUpClass"/>
-        </methods>
-      </class> <!-- tests.LoginPageTest -->
-      <class name="tests.MainPageTest">
-        <methods>
-          <include name="displayLogo"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="setUpClass"/>
-        </methods>
-      </class> <!-- tests.MainPageTest -->
     </classes>
   </test> <!-- Test-CH(failed) -->
 </suite> <!-- Failed suite [TestsSuite] -->
