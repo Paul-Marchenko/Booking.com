@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
+import java.util.List;
 import java.util.logging.Logger;
 
 public class BasePageObject <T> {
@@ -51,6 +52,22 @@ public class BasePageObject <T> {
         else
             System.out.println("Element " + element +" not found");
         return true;
+    }
+    protected void selectElementFromDropDownList(By element, String text) throws InterruptedException {
+        List<WebElement> allElements;
+        find(element).sendKeys(text);
+        find(element).click();
+        Thread.sleep(1000);
+        allElements = driver.findElements(By.tagName("a"));
+        for (int i = 0; i < allElements.size(); i = i + 1)
+        {
+            WebElement item=allElements.get(i);
+            if (allElements.contains(text) && item.isDisplayed())
+            {
+                item.click();
+            }
+        }
+
     }
     private void waitFor (ExpectedCondition<WebElement> condition, Integer timeOutInSec){
         timeOutInSec = timeOutInSec !=null ? timeOutInSec:30;

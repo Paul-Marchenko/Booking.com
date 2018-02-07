@@ -49,4 +49,5 @@ public class MainPage extends BasePageObject<MainPage> {
         type(place, destinationPropertyNameOrAddressField);
     }
 
+
 }

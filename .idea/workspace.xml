@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca1592b-2476-426b-b914-ab9de924464a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java" afterPath="$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MainPageTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/MainPageTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BaseConfigs/BasePageObject.class" afterPath="$PROJECT_DIR$/target/classes/BaseConfigs/BasePageObject.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chromedriver" afterPath="$PROJECT_DIR$/target/classes/chromedriver" />
-      <change beforePath="$PROJECT_DIR$/target/classes/geckodriver" afterPath="$PROJECT_DIR$/target/classes/geckodriver" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/MainPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestsSuite/Test-CH.html" afterPath="$PROJECT_DIR$/target/surefire-reports/TestsSuite/Test-CH.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestsSuite/Test-CH.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TestsSuite/Test-CH.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestsSuite/Test-FF.html" afterPath="$PROJECT_DIR$/target/surefire-reports/TestsSuite/Test-FF.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestsSuite/Test-FF.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TestsSuite/Test-FF.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestsSuite/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TestsSuite/testng-failed.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.LoginPageTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.LoginPageTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.MainPageTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.MainPageTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestsSuite/groups.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestsSuite/groups.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestsSuite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestsSuite/methods-alphabetical.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestsSuite/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestsSuite/methods.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestsSuite/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestsSuite/toc.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/MainPageTest.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/MainPageTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,11 +21,13 @@
       <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+            <state relative-caret-position="243">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#1469#1470#0" expanded="true" />
                 <element signature="e#1497#1498#0" expanded="true" />
+                <element signature="method#getMainLogoName#0;class#MainPage#0" expanded="false" />
+                <element signature="method#isElementPresent#0;class#MainPage#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -61,31 +37,33 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/MainPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasePageObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1125#1126#0" expanded="true" />
+                <marker date="1518001095217" expanded="true" signature="968:975" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasePageObject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="63" column="58" lean-forward="false" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1148#1149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="129">
-              <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -150,10 +128,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tests/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/BaseConfigs/BrowserFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/MainPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java" />
       </list>
     </option>
   </component>
@@ -617,9 +595,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_pavel_IdeaProjects_Booking_com_src_test_resources_testng_xml - 2018.02.06 at 15h 48m 24s.xml">
-      <configuration name="/Users/pavel/IdeaProjects/Booking.com/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_pavel_IdeaProjects_Booking_com_src_test_resources_testng_xml - 2018.02.06 at 15h 50m 40s.xml">
       <configuration name="/Users/pavel/IdeaProjects/Booking.com/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -647,6 +622,9 @@
     <history-entry file="_Users_pavel_IdeaProjects_Booking_com_src_test_resources_testng_xml - 2018.02.07 at 12h 47m 59s.xml">
       <configuration name="/Users/pavel/IdeaProjects/Booking.com/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_pavel_IdeaProjects_Booking_com_src_test_resources_testng_xml - 2018.02.07 at 12h 56m 26s.xml">
+      <configuration name="/Users/pavel/IdeaProjects/Booking.com/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -669,9 +647,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5107527" sideWeight="0.16140777" order="7" side_tool="true" content_ui="tabs" x="815" y="570" width="530" height="220" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05885922" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24731183" sideWeight="0.83859223" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46774194" sideWeight="0.83859223" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.48671725" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4798387" sideWeight="0.7645631" order="7" side_tool="false" content_ui="tabs" x="144" y="416" width="1296" height="118" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38709676" sideWeight="0.7645631" order="7" side_tool="false" content_ui="tabs" x="144" y="416" width="1296" height="118" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1571602" sideWeight="0.49109414" order="0" side_tool="false" content_ui="combo" />
@@ -787,8 +765,8 @@
           <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -840,6 +818,8 @@
           <folding>
             <element signature="e#1469#1470#0" expanded="true" />
             <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="method#getMainLogoName#0;class#MainPage#0" expanded="false" />
+            <element signature="method#isElementPresent#0;class#MainPage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -866,8 +846,8 @@
           <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -908,7 +888,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1518001095217" expanded="true" signature="968:975" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -919,6 +901,8 @@
           <folding>
             <element signature="e#1469#1470#0" expanded="true" />
             <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="method#getMainLogoName#0;class#MainPage#0" expanded="false" />
+            <element signature="method#isElementPresent#0;class#MainPage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -927,7 +911,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
+          <folding>
+            <marker date="1518001095217" expanded="true" signature="968:975" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -977,8 +963,8 @@
           <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1006,6 +992,8 @@
           <folding>
             <element signature="e#1469#1470#0" expanded="true" />
             <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="method#getMainLogoName#0;class#MainPage#0" expanded="false" />
+            <element signature="method#isElementPresent#0;class#MainPage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1014,7 +1002,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1518001095217" expanded="true" signature="968:975" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,8 +1046,8 @@
           <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1178,34 +1168,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding>
-            <element signature="e#1469#1470#0" expanded="true" />
-            <element signature="e#1497#1498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/MainPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1518001095217" expanded="true" signature="968:975" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1220,8 +1189,33 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
-          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="method#getMainLogoName#0;class#MainPage#0" expanded="false" />
+            <element signature="method#isElementPresent#0;class#MainPage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="63" column="58" lean-forward="false" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
