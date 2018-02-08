@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.Date;
 import java.util.logging.Logger;
 
 public class MainPage extends BasePageObject<MainPage> {
@@ -51,8 +52,16 @@ public class MainPage extends BasePageObject<MainPage> {
         type(place, destinationPropertyNameOrAddressField);
     }
 
-    private void selectDataFromCalendar(By field) {
+    protected void selectDataFromCalendar(By field) {
+        find(field).click();
+        //selectFutureMonth
 
+
+    }
+    private Date defineCurrentDayFromCalendar(){
+        WebElement correctCurrentDay=find(By.cssSelector(element));
+        Date currentDayFromCalendar=null;
+        return currentDayFromCalendar;
     }
 
 }

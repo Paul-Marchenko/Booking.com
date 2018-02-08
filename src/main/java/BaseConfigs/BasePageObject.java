@@ -9,6 +9,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -27,7 +31,7 @@ public class BasePageObject <T> {
         driver.get(url);
         return (T)this;
     }
-    private WebElement find(By element){
+    protected WebElement find(By element){
         return driver.findElement(element);
     }
 
@@ -104,6 +108,15 @@ public class BasePageObject <T> {
             attempt++;
         }
 
+    }
+    public Date currentDay(){
+        Date currentDayValue;
+        Calendar calendar = new GregorianCalendar();
+        SimpleDateFormat formattedDate = new SimpleDateFormat("dd.MM.yyyy");
+
+        currentDayValue = calendar.getTime();
+        System.out.println(currentDayValue);
+        return currentDayValue;
     }
 
 

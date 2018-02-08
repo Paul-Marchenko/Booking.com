@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="53" column="51" lean-forward="false" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+            <state relative-caret-position="207">
+              <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="27" />
               <folding>
                 <element signature="e#1469#1470#0" expanded="true" />
                 <element signature="e#1497#1498#0" expanded="true" />
@@ -43,15 +43,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasePageObject.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasePageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+            <state relative-caret-position="252">
+              <caret line="118" column="31" lean-forward="true" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-                <element signature="e#1148#1149#0" expanded="true" />
+                <element signature="method#BasePageObject#0;class#BasePageObject#0" expanded="false" />
+                <element signature="method#getPage#0;class#BasePageObject#0" expanded="false" />
+                <element signature="method#getText#0;class#BasePageObject#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -128,8 +129,8 @@
         <option value="$PROJECT_DIR$/src/main/java/BaseConfigs/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/MainPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java" />
       </list>
     </option>
   </component>
@@ -748,7 +749,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -763,8 +764,9 @@
           <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="method#BasePageObject#0;class#BasePageObject#0" expanded="false" />
+            <element signature="method#getPage#0;class#BasePageObject#0" expanded="false" />
+            <element signature="method#getText#0;class#BasePageObject#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -842,8 +844,9 @@
           <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="method#BasePageObject#0;class#BasePageObject#0" expanded="false" />
+            <element signature="method#getPage#0;class#BasePageObject#0" expanded="false" />
+            <element signature="method#getText#0;class#BasePageObject#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -957,8 +960,9 @@
           <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="method#BasePageObject#0;class#BasePageObject#0" expanded="false" />
+            <element signature="method#getPage#0;class#BasePageObject#0" expanded="false" />
+            <element signature="method#getText#0;class#BasePageObject#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1038,8 +1042,9 @@
           <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="method#BasePageObject#0;class#BasePageObject#0" expanded="false" />
+            <element signature="method#getPage#0;class#BasePageObject#0" expanded="false" />
+            <element signature="method#getText#0;class#BasePageObject#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1186,25 +1191,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="53" column="51" lean-forward="false" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+        <state relative-caret-position="252">
+          <caret line="118" column="31" lean-forward="true" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
           <folding>
-            <element signature="e#1469#1470#0" expanded="true" />
-            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#BasePageObject#0;class#BasePageObject#0" expanded="false" />
+            <element signature="method#getPage#0;class#BasePageObject#0" expanded="false" />
+            <element signature="method#getText#0;class#BasePageObject#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        <state relative-caret-position="207">
+          <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
           </folding>
         </state>
       </provider>
