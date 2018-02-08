@@ -43,11 +43,16 @@ public class MainPage extends BasePageObject<MainPage> {
     }
 
     public void fullUpData(String place, String startDate, String lastDate, String adults, String children, String room) {
+        waitForVisibility(searchButton, 10);
+        selectEnteredElementFromDropDownList(destinationPropertyNameOrAddressField, place);
         type(place, destinationPropertyNameOrAddressField);
         type(place, destinationPropertyNameOrAddressField);//*[@value='business']
         type(place, destinationPropertyNameOrAddressField);
         type(place, destinationPropertyNameOrAddressField);
     }
 
+    private void selectDataFromCalendar(By field) {
+
+    }
 
 }

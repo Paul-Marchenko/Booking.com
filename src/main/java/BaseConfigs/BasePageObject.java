@@ -53,12 +53,12 @@ public class BasePageObject <T> {
             System.out.println("Element " + element +" not found");
         return true;
     }
-    protected void selectElementFromDropDownList(By element, String text) throws InterruptedException {
+    protected void selectEnteredElementFromDropDownList(By element, String text)  {
         List<WebElement> allElements;
         find(element).sendKeys(text);
         find(element).click();
-        Thread.sleep(1000);
-        allElements = driver.findElements(By.tagName("a"));
+        waitForVisibility(element,20);
+        allElements = driver.findElements(By.tagName("li"));
         for (int i = 0; i < allElements.size(); i = i + 1)
         {
             WebElement item=allElements.get(i);
@@ -68,6 +68,20 @@ public class BasePageObject <T> {
             }
         }
 
+    }
+    protected void chooseElementFromDropDownList(By element, By text){
+        List<WebElement> allElements;
+        find(element).click();
+        waitForVisibility(element,20);
+        allElements = driver.findElements(By.tagName("li"));
+        for (int i = 0; i < allElements.size(); i = i + 1)
+        {
+            WebElement item=allElements.get(i);
+            if (allElements.contains(text) && item.isDisplayed())
+            {
+                item.click();
+            }
+        }
     }
     private void waitFor (ExpectedCondition<WebElement> condition, Integer timeOutInSec){
         timeOutInSec = timeOutInSec !=null ? timeOutInSec:30;
