@@ -73,7 +73,7 @@ public class BasePageObject <T> {
         }
 
     }
-    protected void chooseElementFromDropDownList(By element, By text){
+    protected void chooseElementFromDropDownList(By element){
         List<WebElement> allElements;
         find(element).click();
         waitForVisibility(element,20);
@@ -81,11 +81,14 @@ public class BasePageObject <T> {
         for (int i = 0; i < allElements.size(); i = i + 1)
         {
             WebElement item=allElements.get(i);
-            if (allElements.contains(text) && item.isDisplayed())
+            if ( item.isDisplayed())
             {
                 item.click();
             }
         }
+    }
+    protected void checkCheckBox(By element){
+        find(element).click();
     }
     private void waitFor (ExpectedCondition<WebElement> condition, Integer timeOutInSec){
         timeOutInSec = timeOutInSec !=null ? timeOutInSec:30;

@@ -43,25 +43,46 @@ public class MainPage extends BasePageObject<MainPage> {
 
     }
 
-    public void fullUpData(String place, String startDate, String lastDate, String adults, String children, String room) {
+    public void fullUpData(String place) {
         waitForVisibility(searchButton, 10);
-        selectEnteredElementFromDropDownList(destinationPropertyNameOrAddressField, place);
-        type(place, destinationPropertyNameOrAddressField);
-        type(place, destinationPropertyNameOrAddressField);//*[@value='business']
-        type(place, destinationPropertyNameOrAddressField);
-        type(place, destinationPropertyNameOrAddressField);
+        chooseDestiantion(place);
+        selectDataFromCalendar(checkInDateSelection);
+        selectDataFromCalendar(checkOutDateSelection);
+        chooseElementFromDropDownList(adultsQuantityList);
+        chooseElementFromDropDownList(childrenQuantityList);
+        chooseElementFromDropDownList(roomsQuantityList);
+        selectCheckBox();
+        openElement(searchButton);
+    }
+    protected void chooseDestiantion(String placeName){
+        selectEnteredElementFromDropDownList(destinationPropertyNameOrAddressField,placeName);
     }
 
-    protected void selectDataFromCalendar(By field) {
+    protected void selectCheckBox() {
+        checkCheckBox(travelingForWorkConfirmationCheckBox);
+    }
+
+    protected void choiseCheckIbDate() {
+
+    }
+
+    protected void choiseCheckOutDate() {
+
+    }
+
+    private void selectDataFromCalendar(By field) {
         find(field).click();
+        defineCurrentDayFromCalendar();
         //selectFutureMonth
 
 
     }
-    private Date defineCurrentDayFromCalendar(){
-        WebElement correctCurrentDay=find(By.cssSelector(element));
-        Date currentDayFromCalendar=null;
+
+    private Date defineCurrentDayFromCalendar() {
+        WebElement correctCurrentDay = find(By.cssSelector(element));
+        Date currentDayFromCalendar = null;
         return currentDayFromCalendar;
     }
+
 
 }
