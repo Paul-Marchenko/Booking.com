@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca1592b-2476-426b-b914-ab9de924464a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java" afterPath="$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,14 +17,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="1044">
+              <caret line="79" column="9" lean-forward="false" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
               <folding>
                 <element signature="method#getMainLogoName#0;class#MainPage#0" expanded="false" />
                 <element signature="method#isElementPresent#0;class#MainPage#0" expanded="false" />
+                <element signature="e#2359#2360#0" expanded="true" />
+                <element signature="e#2426#2427#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasePageObject.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasePageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="860">
               <caret line="90" column="30" lean-forward="true" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,7 +62,7 @@
       <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="22">
               <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding />
             </state>
@@ -129,8 +130,8 @@
         <option value="$PROJECT_DIR$/src/main/java/BaseConfigs/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/MainPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
       </list>
     </option>
   </component>
@@ -749,7 +750,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -820,6 +821,8 @@
           <folding>
             <element signature="method#getMainLogoName#0;class#MainPage#0" expanded="false" />
             <element signature="method#isElementPresent#0;class#MainPage#0" expanded="false" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2426#2427#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -902,6 +905,8 @@
           <folding>
             <element signature="method#getMainLogoName#0;class#MainPage#0" expanded="false" />
             <element signature="method#isElementPresent#0;class#MainPage#0" expanded="false" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2426#2427#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -992,6 +997,8 @@
           <folding>
             <element signature="method#getMainLogoName#0;class#MainPage#0" expanded="false" />
             <element signature="method#isElementPresent#0;class#MainPage#0" expanded="false" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2426#2427#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1185,26 +1192,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="22">
           <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="22" />
-          <folding>
-            <element signature="method#getMainLogoName#0;class#MainPage#0" expanded="false" />
-            <element signature="method#isElementPresent#0;class#MainPage#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BaseConfigs/BasePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="860">
           <caret line="90" column="30" lean-forward="true" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1213,6 +1209,19 @@
             <element signature="method#getText#0;class#BasePageObject#0" expanded="false" />
             <element signature="e#2702#2703#0" expanded="true" />
             <element signature="e#2739#2740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="79" column="9" lean-forward="false" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+          <folding>
+            <element signature="method#getMainLogoName#0;class#MainPage#0" expanded="false" />
+            <element signature="method#isElementPresent#0;class#MainPage#0" expanded="false" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2426#2427#0" expanded="true" />
           </folding>
         </state>
       </provider>

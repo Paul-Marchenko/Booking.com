@@ -25,8 +25,6 @@ public class MainPage extends BasePageObject<MainPage> {
         super(driver, logger);
     }
 
-    protected String element;
-
     public void openMainPage() {
         getPage(URL);
     }
@@ -62,11 +60,13 @@ public class MainPage extends BasePageObject<MainPage> {
         checkCheckBox(travelingForWorkConfirmationCheckBox);
     }
 
-    protected void choiseCheckIbDate() {
+    protected void choiseCheckIbDate(By checkInDateSelection) {
+        waitForVisibility(checkInDateSelection, 10);
 
     }
 
     protected void choiseCheckOutDate() {
+        waitForVisibility(checkOutDateSelection, 10);
 
     }
 
@@ -79,7 +79,7 @@ public class MainPage extends BasePageObject<MainPage> {
     }
 
     private Date defineCurrentDayFromCalendar() {
-        WebElement correctCurrentDay = find(By.cssSelector(element));
+       // WebElement correctCurrentDay = find(By.cssSelector(By element));
         Date currentDayFromCalendar = null;
         return currentDayFromCalendar;
     }
