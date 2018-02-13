@@ -11,4 +11,8 @@ public class FindPlace {
     public void selectHotelWithCheckoutLessCheckIn(){
 
     }
+    @Test(priority = 2)
+    public void selectHotelWithoutCheckoutAndCheckIn(){
+
+    }
 }

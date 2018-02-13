@@ -1,0 +1,1 @@
+{"uuid":"d0c821f0-4e27-48a4-9450-6e29254a8265","name":"BaseConfigs.BaseConditions.setUp","description":"","start":1518518682861,"stop":1518518685995,"children":["c60ce03b-cfde-4689-ac91-8d8f995a78a3"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1518518682861,"stop":1518518685995}]}

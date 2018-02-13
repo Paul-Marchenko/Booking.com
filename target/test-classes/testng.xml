@@ -19,6 +19,11 @@
         </packages>
     </test>
 
-
+    <test name="Test-SF">
+        <parameter name="browser" value="safari"/>
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
 
 </suite>
