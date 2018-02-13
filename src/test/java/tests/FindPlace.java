@@ -4,7 +4,11 @@ import org.testng.annotations.Test;
 
 public class FindPlace {
     @Test(priority = 2)
-    public void selecteHotel(){
+    public void selectHotelWithCorrectDate(){
+
+    }
+    @Test(priority = 2)
+    public void selectHotelWithCheckoutLessCheckIn(){
 
     }
 }
