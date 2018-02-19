@@ -21,7 +21,7 @@ public class BasePageObject <T> {
     protected WebDriver driver;
     protected WebDriverWait wait;
     protected Logger logger;
-    private Select select;
+    protected Select select;
 
     protected BasePageObject(WebDriver driver, Logger logger){
         this.driver=driver;
@@ -79,6 +79,7 @@ public class BasePageObject <T> {
        WebElement foundValue = find(element);
        getSelect(foundValue);
        select.selectByValue(value);
+
         /*List<WebElement> allElements;
         find(element).click();
         waitForVisibility(element,20);

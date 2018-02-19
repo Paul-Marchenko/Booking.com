@@ -2,7 +2,7 @@ package tests;
 
 import org.testng.annotations.Test;
 
-public class FindPlaceTest {
+public class FindPlaceTest extends MainPageTest{
     @Test(priority = 2)
     public void selectHotelWithCorrectDate(){
 

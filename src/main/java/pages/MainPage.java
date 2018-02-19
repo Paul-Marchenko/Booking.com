@@ -46,13 +46,14 @@ public class MainPage extends BasePageObject<MainPage> {
 
     public void fullUpData(String place) {
         waitForVisibility(searchButton, 10);
-        chooseDestiantion(place);
+
         selectDataFromCalendar(checkInDateSelection);
         selectDataFromCalendar(checkOutDateSelection);
         chooseElementFromDropDownList(adultsQuantityList, adults);
         chooseElementFromDropDownList(childrenQuantityList, children);
         chooseElementFromDropDownList(roomsQuantityList, room);
         selectCheckBox();
+        chooseDestiantion(place);
         openElement(searchButton);
     }
     protected void chooseDestiantion(String placeName){
