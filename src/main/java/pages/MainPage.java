@@ -20,6 +20,9 @@ public class MainPage extends BasePageObject<MainPage> {
     //x.path=//*[@value='business']
     private By roomsQuantityList = By.cssSelector("#no_rooms");
     private By searchButton = By.cssSelector("#div.sb-searchbox__row:nth-child(12) > div:nth-child(2) > button:nth-child(1)");
+    private String adults;
+    private String children;
+    private String room;
 
     public MainPage(WebDriver driver, Logger logger) {
         super(driver, logger);
@@ -46,9 +49,9 @@ public class MainPage extends BasePageObject<MainPage> {
         chooseDestiantion(place);
         selectDataFromCalendar(checkInDateSelection);
         selectDataFromCalendar(checkOutDateSelection);
-        chooseElementFromDropDownList(adultsQuantityList);
-        chooseElementFromDropDownList(childrenQuantityList);
-        chooseElementFromDropDownList(roomsQuantityList);
+        chooseElementFromDropDownList(adultsQuantityList, adults);
+        chooseElementFromDropDownList(childrenQuantityList, children);
+        chooseElementFromDropDownList(roomsQuantityList, room);
         selectCheckBox();
         openElement(searchButton);
     }
