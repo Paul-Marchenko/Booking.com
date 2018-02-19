@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
@@ -20,6 +21,7 @@ public class BasePageObject <T> {
     protected WebDriver driver;
     protected WebDriverWait wait;
     protected Logger logger;
+    private Select select;
 
     protected BasePageObject(WebDriver driver, Logger logger){
         this.driver=driver;
@@ -73,8 +75,11 @@ public class BasePageObject <T> {
         }
 
     }
-    protected void chooseElementFromDropDownList(By element){
-        List<WebElement> allElements;
+    protected void chooseElementFromDropDownList(By element, String value){
+       WebElement foundValue = find(element);
+       getSelect(foundValue);
+       select.selectByValue(value);
+        /*List<WebElement> allElements;
         find(element).click();
         waitForVisibility(element,20);
         allElements = driver.findElements(By.tagName("li"));
@@ -85,7 +90,11 @@ public class BasePageObject <T> {
             {
                 item.click();
             }
-        }
+        }*/
+    }
+    public Select getSelect(WebElement webElement){
+        select=new Select(webElement);
+        return select;
     }
     protected void checkCheckBox(By element){
         find(element).click();
