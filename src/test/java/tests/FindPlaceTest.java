@@ -15,4 +15,8 @@ public class FindPlaceTest extends MainPageTest{
     public void selectHotelWithoutCheckoutAndCheckIn(){
 
     }
+    @Test(priority = 2)
+    public void selectHotelWithMoreThanOneValue(){
+
+    }
 }
