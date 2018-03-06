@@ -20,4 +20,8 @@ public class VerifySelectedDataTest {
         //comments
 
     }
+    @Test(priority = 4)
+    public void verifySearchingPlaceIncorrectValue(){
+
+    }
 }
