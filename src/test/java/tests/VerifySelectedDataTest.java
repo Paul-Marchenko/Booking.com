@@ -15,10 +15,6 @@ public class VerifySelectedDataTest {
     public void verifyExtraValue(){
 
     }
-    @Test(priority = 4)
-    public void verifyIncorrectValue(){
-        //comments
 
-    }
 
 }
