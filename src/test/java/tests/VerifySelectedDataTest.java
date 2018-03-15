@@ -19,9 +19,9 @@ public class VerifySelectedDataTest {
     public void verifyIncorrectExtraValue(){
 
     }
-    /*@Test(priority = 4)
+    @Test(priority = 4)
     public void verifyIncorrectValue(){
 
-    }*/
+    }
 
 }
