@@ -15,13 +15,13 @@ public class VerifySelectedDataTest {
     public void verifyExtraValue(){
 
     }
-    @Test(priority = 4)
+    /*@Test(priority = 4)
     public void verifyIncorrectExtraValue(){
 
     }
     @Test(priority = 4)
     public void verifyIncorrectValue(){
 
-    }
+    }*/
 
 }
